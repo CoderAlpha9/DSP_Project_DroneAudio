@@ -51,7 +51,7 @@ def test_full_reset_and_reference_separation(monkeypatch):
     monkeypatch.setattr(io,"open",guarded)
     x,_=read_audio(s.inference.microphone);tele=s.inference.load_telemetry();c=bind_input(PipelineConfig(),s.inference)
     p=process_audio(x[:1600],c,telemetry=tele);first=p.audio.copy()
-    p.reset();p.process_block(x[:1600]);p.flush();np.testing.assert_array_equal(first,p.audio)
+    p.reset(telemetry=tele);p.process_block(x[:1600]);p.flush();np.testing.assert_array_equal(first,p.audio)
     assert not any("reference" in k or "truth" in k for k in vars(s.inference))
 
 
@@ -222,14 +222,33 @@ def test_pose_control_chunk_equivalence_and_no_sensor_queries_after_audio_end():
 
 
 def test_new_source_reset_keeps_noise_model():
-    p=DronePipeline();p.process_block(np.ones(10240)*.01)
-    # Output count is a multiple of 320 at this boundary.
-    if len(p.pending_amplitude):
-        # A fresh empty stream has an unambiguous source-change boundary too.
-        p=DronePipeline()
+    p=DronePipeline();p.process_block(np.ones(2048)*.01)
+    assert p.enhancer.noise is not None and not len(p.pending_amplitude)
     model=p.enhancer
     p.new_source_session(source_position_enu_m=(0,0,0),source_associated=True)
     assert p.enhancer is model
+
+
+def test_python_and_cli_defaults_match_frozen_selection():
+    from drone_audio.config import load_config
+    assert PipelineConfig().sha256==load_config(ROOT/'configs/frozen.yaml').sha256
+
+
+def test_full_reset_drops_previous_recording_sensors():
+    t=ObservedTelemetry(rpm=SensorSeries([0.],[[3000.]],units='RPM'))
+    p=DronePipeline(telemetry=t);assert p.telemetry.at(0.)['rpm'] is not None
+    p.process_block(np.zeros(320));p.reset()
+    assert p.telemetry.at(0.)['rpm'] is None and p.enhancer.noise is None and p.received==0
+
+
+def test_parent_summary_preserves_metrics_after_silent_first_case():
+    from drone_audio.evaluation import grouped_results
+    rows=[{'batch':'event_probe','method':'complete','parent_id':'a','pre_si_sdr_db':None},
+          {'batch':'event_probe','method':'complete','parent_id':'a','pre_si_sdr_db':5.,'pre_stoi':.6},
+          {'batch':'event_probe','method':'complete','parent_id':'b','pre_si_sdr_db':3.,'pre_stoi':.4}]
+    parents,summary,_=grouped_results(rows)
+    assert len(parents)==2 and summary[0]['parents']==2
+    assert summary[0]['pre_si_sdr_db']==4. and summary[0]['pre_stoi']==.5
 
 
 def test_oracle_explicitly_separate_and_finite():

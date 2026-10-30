@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "rows": 84,
+  "cases": [
+    "test_01_00_recede_slow",
+    "gazebo_20261028T064457Z_seed101__base"
+  ],
+  "new_integration_study": true,
+  "reused_test": true,
+  "environment": {
+    "utc": "2026-10-30T15:53:16.259865+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  },
+  "not_a_fault_diagnosis": true
+}

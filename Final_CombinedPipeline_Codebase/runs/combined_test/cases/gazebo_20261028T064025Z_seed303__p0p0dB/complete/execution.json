@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "config": {
+    "sample_rate": 16000,
+    "detector_enabled": true,
+    "telemetry_max_age_s": 0.2,
+    "rpm_min": 100.0,
+    "rpm_max": 20000.0,
+    "freeze_after_s": 2.0,
+    "speech_free_prefix_s": 0.8,
+    "enhancement": {
+      "enabled": true,
+      "mode": "audio_only",
+      "n_fft": 1024,
+      "hop": 256,
+      "noise_alpha": 0.9,
+      "dd_alpha": 0.96,
+      "beta": 1.0,
+      "floor": 0.04,
+      "rpm_weight": 0.1,
+      "rpm_power": 2.0,
+      "psd_cap": 4.0,
+      "blades": 2,
+      "harmonics": 8,
+      "order_width_hz": 18.0,
+      "order_attenuation": 0.15,
+      "startup_s": 0.5,
+      "motion_enabled": false,
+      "motion_mu": 0.01,
+      "motion_cutoff_hz": 20.0
+    },
+    "amplitude": {
+      "enabled": true,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "max_slew_db_s": 36.0,
+      "hold_s": 3.5,
+      "peak_ceiling": 0.95,
+      "reference_mode": "session",
+      "reference_distance_m": null,
+      "source_position_enu_m": null,
+      "source_associated": false,
+      "speech_only": true,
+      "event_control": true,
+      "snr_guard_enabled": true,
+      "snr_guard_low_db": 0.0,
+      "snr_guard_high_db": 10.0,
+      "max_pose_speed_m_s": 14.0
+    }
+  },
+  "config_sha256": "83c89e0c2854433ef60164e98175ba99bc45d023206f7ff131a6a74ca07a5f80",
+  "timing": {
+    "compute_total_s": 1.1254428998799995,
+    "detection_s": 0.8852227992028929,
+    "enhancement_including_telemetry_motion_s": 0.15925260161748156,
+    "telemetry_within_enhancement_s": 0.00969440076733008,
+    "motion_within_enhancement_s": 0.0,
+    "amplitude_including_pose_lookup_s": 0.055855600570794195,
+    "real_time_factor": 0.07502952665866663,
+    "stft_buffer_s": 0.064,
+    "steady_reconstruction_lookahead_s": 0.048,
+    "amplitude_block_s": 0.02,
+    "detector_hop_s": 0.01,
+    "maximum_output_buffer_s": 0.084,
+    "streaming_note": "Buffering plus detector confirmation/release; telemetry always held from past observations. CPU time is not latency."
+  },
+  "environment": {
+    "utc": "2026-10-30T16:00:28.724675+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  },
+  "input_record": {
+    "sample": {
+      "id": "gazebo_20261028T064025Z_seed303__p0p0dB",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T064025Z_seed303",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "test",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T064025Z_seed303\\audio_snr_sweep\\p0p0dB\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T064025Z_seed303\\imu_aligned.csv",
+        "time_origin_s": 24.536,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T064025Z_seed303\\audio_snr_sweep\\p0p0dB\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T064025Z_seed303\\audio_snr_sweep\\p0p0dB\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "p0p0dB",
+      "metadata": {
+        "scenario": "S5",
+        "seed": 303,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T064025Z_seed303\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "dab174a35c414d7ebd0b6e62d5593295a9605cfbdfb6b7fbe013b74494243e5a"
+      }
+    },
+    "conversion": {
+      "original_rate_hz": 16000,
+      "internal_rate_hz": 16000,
+      "original_shape": [
+        240000
+      ],
+      "resampled": false,
+      "downmixed": false,
+      "normalization": "PCM dtype scaling only"
+    }
+  },
+  "output_samples": 240000,
+  "audio_format": "float32 WAV, no normalization",
+  "events": 1
+}

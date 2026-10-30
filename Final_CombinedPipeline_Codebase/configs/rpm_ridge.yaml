@@ -1,0 +1,44 @@
+sample_rate: 16000
+detector_enabled: true
+telemetry_max_age_s: 0.2
+rpm_min: 100.0
+rpm_max: 20000.0
+freeze_after_s: 2.0
+speech_free_prefix_s: null
+enhancement:
+  enabled: true
+  mode: ridge
+  n_fft: 1024
+  hop: 256
+  noise_alpha: 0.9
+  dd_alpha: 0.96
+  beta: 1.0
+  floor: 0.04
+  rpm_weight: 0.1
+  rpm_power: 2.0
+  psd_cap: 4.0
+  blades: 2
+  harmonics: 8
+  order_width_hz: 18.0
+  order_attenuation: 0.15
+  startup_s: 0.5
+  motion_enabled: false
+  motion_mu: 0.01
+  motion_cutoff_hz: 20.0
+amplitude:
+  enabled: true
+  max_gain_db: 18.0
+  smooth_s: 0.04
+  max_slew_db_s: 36.0
+  hold_s: 3.5
+  peak_ceiling: 0.95
+  reference_mode: session
+  reference_distance_m: null
+  source_position_enu_m: null
+  source_associated: false
+  speech_only: true
+  event_control: true
+  snr_guard_enabled: true
+  snr_guard_low_db: 0.0
+  snr_guard_high_db: 10.0
+  max_pose_speed_m_s: 14.0

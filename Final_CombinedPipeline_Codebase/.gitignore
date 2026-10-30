@@ -7,3 +7,4 @@ dist/
 runs/**/*.wav
 runs/**/*.npz
 runs/**/*.npy
+runs/test_temp*/

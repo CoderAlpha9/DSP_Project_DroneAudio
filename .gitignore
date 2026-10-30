@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+venvmine/
+.env
+.env.*
+!.env.example
+*.venv/
+*venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache and temporary files
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+*.tmp

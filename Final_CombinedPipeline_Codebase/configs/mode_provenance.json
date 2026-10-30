@@ -1,0 +1,14 @@
+{
+  "operational": "frozen.yaml",
+  "selection": "../runs/development_selection_with_order/selection.json",
+  "comparators": [
+    "rpm_fixed_0p1",
+    "rpm_bounded_0p75",
+    "rpm_correlation",
+    "rpm_ridge",
+    "rpm_order"
+  ],
+  "threshold_source": "drone_audio/assets/reliability_selected.json and ridge_selected.json",
+  "motion": "new causal adaptation; experimental, default disabled",
+  "all_modes_use_same_selected_audio_core": true
+}

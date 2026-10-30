@@ -140,10 +140,11 @@ def score(sample,pipeline,config,*,intelligibility=True):
     post=quality(goal,pipeline.audio,mask,intelligibility=False)
     weights=[r["fusion_weight"] for r in pipeline.enhancer.traces if r["frame_start_s"]>=0 and r["available_time_s"]<=n/16000]
     reasons=[r["rpm_status"] for r in pipeline.enhancer.traces if r["available_time_s"]<=n/16000]
+    structural=[r["rpm_valid"] for r in pipeline.enhancer.traces if r["available_time_s"]<=n/16000]
     row={"sample_id":sample.id,"parent_id":sample.parent_id,"source_id":sample.source_id,"batch":sample.batch,"split":sample.split,"condition":sample.condition,
          "config_sha256":config.sha256,"samples":n,"amplitude_reference":convention,"peak_abs":float(np.max(abs(pipeline.audio))) if n else 0.,
          "clipping_fraction":float(np.mean(abs(pipeline.audio)>=1.)) if n else 0.,"mean_rpm_weight":float(np.mean(weights)) if weights else 0.,
-         "rpm_valid_coverage":reasons.count("valid")/max(1,len(reasons)),"mean_applied_gain_db":float(np.mean([r["applied_gain_db"] for r in pipeline.logs_amplitude])) if pipeline.logs_amplitude else 0.,
+         "rpm_valid_coverage":float(np.mean(structural)) if structural else 0.,"rpm_model_eligible_coverage":reasons.count("valid")/max(1,len(reasons)),"mean_applied_gain_db":float(np.mean([r["applied_gain_db"] for r in pipeline.logs_amplitude])) if pipeline.logs_amplitude else 0.,
          "limiter_fraction":float(np.mean([r["limiter_active"] for r in pipeline.logs_amplitude])) if pipeline.logs_amplitude else 0.,
          "component_snr_status":"not_claimed: no replay of adaptive operator on stems",
          **{k:v for k,v in pipeline.timing.items() if isinstance(v,(int,float))}}
@@ -168,7 +169,7 @@ def matched_configurations(config):
 
 def grouped_results(rows):
     """Conditions -> parent means -> macro parent means, without frame CIs."""
-    keys=[k for k in rows[0] if isinstance(rows[0][k],(float,int)) and k not in {"samples"}] if rows else []
+    keys=list(dict.fromkeys(k for r in rows for k,v in r.items() if isinstance(v,(float,int)) and k!="samples"))
     groups={}
     for r in rows:groups.setdefault((r["batch"],r["method"],r["parent_id"]),[]).append(r)
     parents=[]

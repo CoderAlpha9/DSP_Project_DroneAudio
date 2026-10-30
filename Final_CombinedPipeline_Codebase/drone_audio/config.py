@@ -18,9 +18,9 @@ class EnhancementConfig:
     mode: str = "audio_only"
     n_fft: int = 1024
     hop: int = 256
-    noise_alpha: float = .95
+    noise_alpha: float = .90
     dd_alpha: float = .96
-    beta: float = 1.5
+    beta: float = 1.0
     floor: float = .04
     rpm_weight: float = .1
     rpm_power: float = 2.

@@ -1,0 +1,18 @@
+{
+  "warnings": [
+    "Batch2 index has 4 rows but 23 manifests; manifests used, latest valid per scenario/seed"
+  ],
+  "conflicting_parent_splits": {},
+  "overlapping_source_splits": {
+    "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561": [
+      "development",
+      "test",
+      "validation"
+    ]
+  },
+  "conflicting_capture_splits": {},
+  "source_overlap_note": "Batch2 reuses one speech file across capture-level partitions; this is not speaker-disjoint validation. Batch1 rec4/rec5 share one source ID.",
+  "excluded_batch2_manifests": 4,
+  "duplicate_microphones": {},
+  "conflicting_microphone_splits": []
+}

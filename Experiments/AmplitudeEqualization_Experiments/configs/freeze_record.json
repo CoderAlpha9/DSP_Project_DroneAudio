@@ -1,0 +1,7 @@
+{
+  "configuration_sha256": "26dfc53236cd97bbc4b52a5ccdff3149b00a89ff668542b65424a586c706c034",
+  "selected_before_new_test_scoring": true,
+  "source_sha256": "8716a1d4d431ab1a9a2d9455df82beeada7077673b17ac3a73eb5f246951cc34",
+  "input_policy": "Only target_at_drone.wav; reference and true trajectory are evaluation-only; no mixture/noise waveform opened.",
+  "report_policy": "Performance tables only on test; train and validation audio exported without performance metrics."
+}

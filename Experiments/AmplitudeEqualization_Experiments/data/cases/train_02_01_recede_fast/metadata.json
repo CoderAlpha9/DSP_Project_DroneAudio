@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_02_01_recede_fast",
+  "source_offset_samples": 53362,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

@@ -1,0 +1,128 @@
+{
+  "status": "completed",
+  "config": {
+    "sample_rate": 16000,
+    "detector_enabled": true,
+    "telemetry_max_age_s": 0.2,
+    "rpm_min": 100.0,
+    "rpm_max": 20000.0,
+    "freeze_after_s": 2.0,
+    "speech_free_prefix_s": null,
+    "enhancement": {
+      "enabled": true,
+      "mode": "audio_only",
+      "n_fft": 1024,
+      "hop": 256,
+      "noise_alpha": 0.9,
+      "dd_alpha": 0.96,
+      "beta": 1.0,
+      "floor": 0.04,
+      "rpm_weight": 0.1,
+      "rpm_power": 2.0,
+      "psd_cap": 4.0,
+      "blades": 2,
+      "harmonics": 8,
+      "order_width_hz": 18.0,
+      "order_attenuation": 0.15,
+      "startup_s": 0.5,
+      "motion_enabled": false,
+      "motion_mu": 0.01,
+      "motion_cutoff_hz": 20.0
+    },
+    "amplitude": {
+      "enabled": true,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "max_slew_db_s": 36.0,
+      "hold_s": 3.5,
+      "peak_ceiling": 0.95,
+      "reference_mode": "session",
+      "reference_distance_m": null,
+      "source_position_enu_m": null,
+      "source_associated": false,
+      "speech_only": true,
+      "event_control": true,
+      "snr_guard_enabled": true,
+      "snr_guard_low_db": 0.0,
+      "snr_guard_high_db": 10.0,
+      "max_pose_speed_m_s": 14.0
+    }
+  },
+  "config_sha256": "c401e345ffc63885a369b20a5b062497c2034cb988a5977283652fad49e6200c",
+  "timing": {
+    "compute_total_s": 1.866592699836474,
+    "detection_s": 1.3899226001813076,
+    "enhancement_including_telemetry_motion_s": 0.3303908997331746,
+    "telemetry_within_enhancement_s": 0.058678200293798,
+    "motion_within_enhancement_s": 0.0,
+    "amplitude_including_pose_lookup_s": 0.10361940029542893,
+    "real_time_factor": 0.1866592699836474,
+    "stft_buffer_s": 0.064,
+    "steady_reconstruction_lookahead_s": 0.048,
+    "amplitude_block_s": 0.02,
+    "detector_hop_s": 0.01,
+    "maximum_output_buffer_s": 0.084,
+    "streaming_note": "Buffering plus detector confirmation/release; telemetry always held from past observations. CPU time is not latency."
+  },
+  "environment": {
+    "utc": "2026-10-30T15:50:46.578971+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  },
+  "input_record": {
+    "sample": {
+      "id": "test_14_00_mixed_3d__chirp",
+      "batch": "event_probe",
+      "parent_id": "test_14_00_mixed_3d",
+      "source_id": "ecfa678c8671",
+      "split": "test",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Experiments\\EventDetection_Experiments\\data\\cases\\test_14_00_mixed_3d__chirp\\input.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\test\\test_14_00_mixed_3d\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Experiments\\EventDetection_Experiments\\data\\cases\\test_14_00_mixed_3d__chirp\\truth.npz",
+        "source_reference": null,
+        "noise": null,
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": null,
+        "event_labels": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Experiments\\EventDetection_Experiments\\data\\cases\\test_14_00_mixed_3d__chirp\\truth.npz"
+      },
+      "condition": "chirp",
+      "metadata": {
+        "kind": "chirp",
+        "synthetic_descendant": true
+      }
+    },
+    "conversion": {
+      "original_rate_hz": 16000,
+      "internal_rate_hz": 16000,
+      "original_shape": [
+        160000
+      ],
+      "resampled": false,
+      "downmixed": false,
+      "normalization": "PCM dtype scaling only"
+    }
+  },
+  "output_samples": 160000,
+  "audio_format": "float32 WAV, no normalization",
+  "events": 2
+}

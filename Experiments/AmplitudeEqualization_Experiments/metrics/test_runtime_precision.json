@@ -1,0 +1,18 @@
+{
+  "split": "test",
+  "scenario_id": "test_02_00_recede_fast",
+  "repeated_runtime_s": [
+    0.053080057999977726,
+    0.05241671600015252,
+    0.05607197799963615,
+    0.061654367000301136,
+    0.07177713400051289
+  ],
+  "median_real_time_factor": 0.005607197799963615,
+  "wrapper_peak_allocation_bytes": 5669020,
+  "float32_input_max_output_difference": 1.0922930226975325e-08,
+  "pcm16_max_quantization_error": 1.5259244996707923e-05,
+  "buffering_ms": 20,
+  "internal_precision": "float64",
+  "scope": "Amplitude only; I/O and metric calculations excluded."
+}

@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_00_00_hover",
+  "source_offset_samples": 39179,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

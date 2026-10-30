@@ -1,0 +1,32 @@
+{
+  "status": "running",
+  "stage": "combined_evaluation",
+  "split": "test",
+  "reused_test": true,
+  "cases": 47,
+  "methods": [
+    "unprocessed",
+    "audio_only",
+    "fixed_rpm_0p1",
+    "reliability_ridge",
+    "complete_no_amplitude",
+    "complete",
+    "no_event_control",
+    "motion_ablation"
+  ],
+  "completed": [
+    "test_00_00_hover",
+    "test_01_00_recede_slow",
+    "test_02_00_recede_fast",
+    "test_03_00_approach",
+    "test_04_00_out_and_back",
+    "test_05_00_pass_near",
+    "test_06_00_pass_far",
+    "test_07_00_orbit",
+    "test_08_00_spiral_out",
+    "test_09_00_spiral_in",
+    "test_10_00_stop_and_go"
+  ],
+  "failed": [],
+  "skipped": []
+}

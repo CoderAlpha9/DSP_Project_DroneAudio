@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_01_00_recede_slow",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "recede_slow",
+  "seed": 20361129,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "drift",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.8589969702191125,
+  "distance_max_m": 12.691392362094511,
+  "speed_max_m_s": 1.3059740220236915,
+  "acceleration_max_m_s2": 0.19892293247154655,
+  "active_snr_median_db": -12.655629607323192,
+  "active_fraction_below_3db": 0.9334719334719335,
+  "relative_path": "test/test_01_00_recede_slow"
+}

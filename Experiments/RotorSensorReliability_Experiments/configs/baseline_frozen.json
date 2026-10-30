@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lsa_a0.9_b2.0_na0.95",
+    "family": "lsa",
+    "alpha": 0.9,
+    "beta": 2.0,
+    "noise_alpha": 0.95,
+    "floor": 0.04
+  },
+  {
+    "id": "spp_a0.96_b2.0_na0.98",
+    "family": "spp",
+    "alpha": 0.96,
+    "beta": 2.0,
+    "noise_alpha": 0.98,
+    "floor": 0.04
+  },
+  {
+    "id": "static_a0.9_b2.0_na0.95",
+    "family": "static",
+    "alpha": 0.9,
+    "beta": 2.0,
+    "noise_alpha": 0.95,
+    "floor": 0.04
+  }
+]

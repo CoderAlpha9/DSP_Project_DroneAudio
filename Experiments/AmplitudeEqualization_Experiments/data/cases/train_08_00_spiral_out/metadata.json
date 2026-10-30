@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_08_00_spiral_out",
+  "source_offset_samples": 323001,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

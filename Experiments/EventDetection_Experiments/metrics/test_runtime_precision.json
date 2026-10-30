@@ -1,0 +1,11 @@
+{
+  "case_id": "test_00_00_hover__speech",
+  "duration_s": 10,
+  "detector_seconds": 0.360570941998958,
+  "real_time_factor": 0.0360570941998958,
+  "window_ms": 25,
+  "hop_ms": 10,
+  "input_rounding_decision_mismatches": 0,
+  "float64_internal": true,
+  "stream_cache_exact": true
+}

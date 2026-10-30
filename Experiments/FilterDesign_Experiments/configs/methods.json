@@ -1,0 +1,13 @@
+{
+  "spectral_subtraction": "spectral_sub:oversub=1.0,floor=0.02",
+  "wiener": "wiener:alpha=0.95,beta=1.0,floor=0.02",
+  "mmse_lsa": "mmse_lsa:alpha_noise=0.95,dd=0.98,floor=0.02",
+  "kalman": "spectral_kalman:alpha_noise=0.95,q_scale=0.03,floor=0.02",
+  "nlms": "imu_nlms:taps=64,mu=0.08,reference=accel_mag",
+  "rls": "imu_rls:taps=16,lambda=0.995,delta=1.0,block=256,reference=accel_mag",
+  "adaptive_harmonic_comb": "adaptive_comb:blades=2,harmonics=10,width_hz=14,attenuation=0.12,rpm_alpha=0.90",
+  "rpm_order_tracking": "rpm_order:blades=2,harmonics=8,width_hz=18,attenuation=0.15",
+  "wavelet_denoising": "haar:levels=6,threshold_scale=1.0",
+  "nmf": "nmf:rank_s=8,rank_n=8,dict_iter=24,mix_iter=36,floor=0.02,seed=0",
+  "deepfilter_rnnoise": "neural:engine=auto"
+}

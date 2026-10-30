@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_02_03_recede_fast",
+  "split": "train",
+  "source_group": "64de953209db",
+  "profile": "recede_fast",
+  "seed": 20261250,
+  "source_offset_samples": 210980,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "good",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.429676861137006,
+  "distance_max_m": 32.431812150777546,
+  "speed_max_m_s": 3.9850823605567767,
+  "acceleration_max_m_s2": 0.6069992565918114,
+  "active_snr_median_db": -12.117884604156494,
+  "active_fraction_below_3db": 0.9761904761904762,
+  "relative_path": "train/train_02_03_recede_fast"
+}

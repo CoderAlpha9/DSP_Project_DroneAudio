@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "processing_evaluations": 1216,
+  "selected_flights": 19,
+  "methods": 16,
+  "metric_nonfinite_values": 0,
+  "duplicate_processing_rows": 0,
+  "stft_identity_max_error": 4.163336342344337e-17,
+  "per_motor_scale_invariance_max_error": 2.7755575615628914e-17,
+  "development_winner_verified": true,
+  "calibration_speech_absent_in_all_selected_captures": true
+}

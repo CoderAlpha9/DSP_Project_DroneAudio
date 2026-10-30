@@ -1,0 +1,94 @@
+{
+  "fresh_frozen_replay": {
+    "tolerance": 1e-07,
+    "all_within_tolerance": true,
+    "checks": [
+      {
+        "file": "fresh_reliability_4896_v2.csv",
+        "metric": "stft_sdr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "fresh_test_waveform_v2.csv",
+        "metric": "sisdr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "fresh_test_waveform_v2.csv",
+        "metric": "snr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "ridge_gate_test_v3.csv",
+        "metric": "sisdr",
+        "max_absolute_delta": 1.4210854715202004e-14,
+        "within_tolerance": true
+      },
+      {
+        "file": "ridge_gate_test_v3.csv",
+        "metric": "mean_lambda",
+        "max_absolute_delta": 0.0,
+        "within_tolerance": true
+      }
+    ]
+  },
+  "fresh_retuned_replay": {
+    "tolerance": 1e-07,
+    "all_within_tolerance": true,
+    "checks": [
+      {
+        "file": "fresh_reliability_4896_v2.csv",
+        "metric": "stft_sdr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "fresh_test_waveform_v2.csv",
+        "metric": "sisdr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "fresh_test_waveform_v2.csv",
+        "metric": "snr",
+        "max_absolute_delta": 4.440892098500626e-16,
+        "within_tolerance": true
+      },
+      {
+        "file": "ridge_gate_test_v3.csv",
+        "metric": "sisdr",
+        "max_absolute_delta": 1.4210854715202004e-14,
+        "within_tolerance": true
+      },
+      {
+        "file": "ridge_gate_test_v3.csv",
+        "metric": "mean_lambda",
+        "max_absolute_delta": 0.0,
+        "within_tolerance": true
+      }
+    ]
+  },
+  "development_grids": {
+    "development_fixed_grid_v2.csv": {
+      "rows": 11,
+      "max_absolute_numeric_delta": 0.0
+    },
+    "development_gate_grid_v2.csv": {
+      "rows": 24,
+      "max_absolute_numeric_delta": 0.0
+    },
+    "ridge_gate_development_grid_v3.csv": {
+      "rows": 40,
+      "max_absolute_numeric_delta": 0.0
+    }
+  },
+  "scientific_tests_passed": 9,
+  "archived_evidence_audit": "PASS",
+  "original_raw_benchmark_rerun": "BLOCKED: exact S3(1).zip, S6(1).zip and data.zip absent",
+  "original_frozen_algorithms": "Smoke executed on fresh generated mixture; not a replay of original captures",
+  "fresh_frozen_elapsed_s": 72.01076150099993,
+  "fresh_retuned_elapsed_s": 91.5059325740001
+}

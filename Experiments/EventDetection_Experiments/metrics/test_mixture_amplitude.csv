@@ -1,0 +1,16 @@
+case_id,split,input_component_snr_db,output_component_snr_db,output_vs_reference_rmse,note
+test_00_00_hover__speech,test,-3.5049420376202143,-3.5190494369382708,0.06592936351761114,Gain applies equally to target and noise; not denoising
+test_01_00_recede_slow__speech,test,0.37249451185990834,-0.10377729531730619,0.05893935721192699,Gain applies equally to target and noise; not denoising
+test_02_00_recede_fast__speech,test,0.8244167850308532,0.04175074498112592,0.06410849705625599,Gain applies equally to target and noise; not denoising
+test_03_00_approach__speech,test,17.171571130003084,17.1705260115979,0.07232192462268307,Gain applies equally to target and noise; not denoising
+test_04_00_out_and_back__speech,test,-13.32080030256894,-13.32080030256894,0.08167549322290027,Gain applies equally to target and noise; not denoising
+test_05_00_pass_near__speech,test,10.634859820061124,10.373940431837447,0.05327323609880044,Gain applies equally to target and noise; not denoising
+test_06_00_pass_far__speech,test,11.545132670162857,11.539988224389905,0.06894704887334868,Gain applies equally to target and noise; not denoising
+test_07_00_orbit__speech,test,14.392583882833499,14.385609275485505,0.06417417076991727,Gain applies equally to target and noise; not denoising
+test_08_00_spiral_out__speech,test,-10.245835010836558,-11.277096301517668,0.0902136665351069,Gain applies equally to target and noise; not denoising
+test_09_00_spiral_in__speech,test,4.5511222300518455,4.5511222300518455,0.07071288041910939,Gain applies equally to target and noise; not denoising
+test_10_00_stop_and_go__speech,test,1.961979997895881,1.7111224892053503,0.05657660432727558,Gain applies equally to target and noise; not denoising
+test_11_00_s_curve__speech,test,9.115442505255775,8.212611460094639,0.04779272740180695,Gain applies equally to target and noise; not denoising
+test_12_00_climb__speech,test,-6.574108958682601,-6.892338522528828,0.07373923713923944,Gain applies equally to target and noise; not denoising
+test_13_00_descend__speech,test,5.6825940401056485,5.675240948174157,0.06857405760544125,Gain applies equally to target and noise; not denoising
+test_14_00_mixed_3d__speech,test,1.6709195615469465,1.6709195615469465,0.0682199999095142,Gain applies equally to target and noise; not denoising

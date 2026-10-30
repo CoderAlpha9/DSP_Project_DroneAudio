@@ -1,0 +1,14 @@
+test_conditional_blend_risk_oracle (test_science.ScientificTests.test_conditional_blend_risk_oracle) ... ok
+test_conditional_component_reconstruction (test_science.ScientificTests.test_conditional_component_reconstruction) ... ok
+test_drift_is_not_invariant (test_science.ScientificTests.test_drift_is_not_invariant) ... ok
+test_generator_contract_and_seed (test_science.ScientificTests.test_generator_contract_and_seed) ... ok
+test_operational_gain_uses_no_clean_stem (test_science.ScientificTests.test_operational_gain_uses_no_clean_stem) ... ok
+test_original_all_frozen_algorithms_smoke (test_science.ScientificTests.test_original_all_frozen_algorithms_smoke) ... ok
+test_per_motor_constant_scale (test_science.ScientificTests.test_per_motor_constant_scale) ... ok
+test_stft_identity_both_studies (test_science.ScientificTests.test_stft_identity_both_studies) ... ok
+test_wiener_risk_identity (test_science.ScientificTests.test_wiener_risk_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.845s
+
+OK

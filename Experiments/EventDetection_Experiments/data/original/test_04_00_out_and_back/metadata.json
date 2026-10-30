@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_04_00_out_and_back",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "out_and_back",
+  "seed": 20361429,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": -3,
+  "sensor_condition": "unavailable",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.655465871799161,
+  "distance_max_m": 23.54200456966261,
+  "speed_max_m_s": 7.95005708890134,
+  "acceleration_max_m_s2": 6.601960005588789,
+  "active_snr_median_db": -21.442850079411254,
+  "active_fraction_below_3db": 0.9708939708939709,
+  "relative_path": "test/test_04_00_out_and_back"
+}

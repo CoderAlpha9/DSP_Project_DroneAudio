@@ -1,0 +1,1486 @@
+{
+  "cases": [
+    {
+      "id": "train_00_00_hover",
+      "batch": "batch1",
+      "parent_id": "train_00_00_hover",
+      "source_id": "52f12a62d905",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_00_hover\\ground_truth_trajectory.csv",
+        "source_offset_samples": 39179,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "hover",
+        "sensor_condition": "good",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_00_01_hover",
+      "batch": "batch1",
+      "parent_id": "train_00_01_hover",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_01_hover\\ground_truth_trajectory.csv",
+        "source_offset_samples": 136656,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "hover",
+        "sensor_condition": "drift",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_00_02_hover",
+      "batch": "batch1",
+      "parent_id": "train_00_02_hover",
+      "source_id": "64de953209db",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_02_hover\\ground_truth_trajectory.csv",
+        "source_offset_samples": 282204,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "hover",
+        "sensor_condition": "dropout",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_00_03_hover",
+      "batch": "batch1",
+      "parent_id": "train_00_03_hover",
+      "source_id": "52f12a62d905",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_00_03_hover\\ground_truth_trajectory.csv",
+        "source_offset_samples": 173907,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "hover",
+        "sensor_condition": "spikes",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_01_00_recede_slow",
+      "batch": "batch1",
+      "parent_id": "train_01_00_recede_slow",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_00_recede_slow\\ground_truth_trajectory.csv",
+        "source_offset_samples": 346873,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "recede_slow",
+        "sensor_condition": "drift",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_01_01_recede_slow",
+      "batch": "batch1",
+      "parent_id": "train_01_01_recede_slow",
+      "source_id": "64de953209db",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_01_recede_slow\\ground_truth_trajectory.csv",
+        "source_offset_samples": 350635,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "recede_slow",
+        "sensor_condition": "dropout",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_01_02_recede_slow",
+      "batch": "batch1",
+      "parent_id": "train_01_02_recede_slow",
+      "source_id": "52f12a62d905",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_02_recede_slow\\ground_truth_trajectory.csv",
+        "source_offset_samples": 182004,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "recede_slow",
+        "sensor_condition": "spikes",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_01_03_recede_slow",
+      "batch": "batch1",
+      "parent_id": "train_01_03_recede_slow",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_01_03_recede_slow\\ground_truth_trajectory.csv",
+        "source_offset_samples": 255622,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "recede_slow",
+        "sensor_condition": "unavailable",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_04_00_out_and_back",
+      "batch": "batch1",
+      "parent_id": "train_04_00_out_and_back",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_00_out_and_back\\ground_truth_trajectory.csv",
+        "source_offset_samples": 174699,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "out_and_back",
+        "sensor_condition": "unavailable",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_04_01_out_and_back",
+      "batch": "batch1",
+      "parent_id": "train_04_01_out_and_back",
+      "source_id": "64de953209db",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_01_out_and_back\\ground_truth_trajectory.csv",
+        "source_offset_samples": 70918,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "out_and_back",
+        "sensor_condition": "good",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_04_02_out_and_back",
+      "batch": "batch1",
+      "parent_id": "train_04_02_out_and_back",
+      "source_id": "52f12a62d905",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_02_out_and_back\\ground_truth_trajectory.csv",
+        "source_offset_samples": 165,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "out_and_back",
+        "sensor_condition": "drift",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_04_03_out_and_back",
+      "batch": "batch1",
+      "parent_id": "train_04_03_out_and_back",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_04_03_out_and_back\\ground_truth_trajectory.csv",
+        "source_offset_samples": 166644,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "out_and_back",
+        "sensor_condition": "dropout",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_14_00_mixed_3d",
+      "batch": "batch1",
+      "parent_id": "train_14_00_mixed_3d",
+      "source_id": "64de953209db",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_00_mixed_3d\\ground_truth_trajectory.csv",
+        "source_offset_samples": 38821,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "mixed_3d",
+        "sensor_condition": "unavailable",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_14_01_mixed_3d",
+      "batch": "batch1",
+      "parent_id": "train_14_01_mixed_3d",
+      "source_id": "52f12a62d905",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_01_mixed_3d\\ground_truth_trajectory.csv",
+        "source_offset_samples": 40488,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "mixed_3d",
+        "sensor_condition": "good",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_14_02_mixed_3d",
+      "batch": "batch1",
+      "parent_id": "train_14_02_mixed_3d",
+      "source_id": "c414202e8f9c",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_02_mixed_3d\\ground_truth_trajectory.csv",
+        "source_offset_samples": 296560,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "mixed_3d",
+        "sensor_condition": "drift",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "train_14_03_mixed_3d",
+      "batch": "batch1",
+      "parent_id": "train_14_03_mixed_3d",
+      "source_id": "64de953209db",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\mixture.wav",
+        "telemetry_schema": "batch1",
+        "observed_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\telemetry_observed.csv",
+        "observed_imu_csv": null,
+        "time_origin_s": 0.0,
+        "sample_rate": 16000,
+        "source_position_enu_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_associated": true,
+        "speech_free_prefix_s": null
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\target_at_drone.wav",
+        "source_reference": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\reference.wav",
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\noise.wav",
+        "true_trajectory": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch1\\train\\train_14_03_mixed_3d\\ground_truth_trajectory.csv",
+        "source_offset_samples": 255933,
+        "fixed_reference_m": 2.0,
+        "active_interval_s": null,
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "profile": "mixed_3d",
+        "sensor_condition": "dropout",
+        "original_split": "train",
+        "reused_test": true
+      }
+    },
+    {
+      "id": "gazebo_20261028T062804Z_seed101__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T062804Z_seed101",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062804Z_seed101\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062804Z_seed101\\imu_aligned.csv",
+        "time_origin_s": 24.48,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062804Z_seed101\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062804Z_seed101\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S1",
+        "seed": 101,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062804Z_seed101\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "61b5d9ea57e0635199953be637b3b6f6776ebaeb9882f14826f004af0112c846"
+      }
+    },
+    {
+      "id": "gazebo_20261028T062913Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T062913Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062913Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062913Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.452,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062913Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062913Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S1",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S1\\gazebo_20261028T062913Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "4b35106cfba3956cdc1bc2190efb7027afe2c1c528db25e3414ba4a070b2d6f6"
+      }
+    },
+    {
+      "id": "gazebo_20261028T062302Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T062302Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S2\\gazebo_20261028T062302Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S2\\gazebo_20261028T062302Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.516,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S2\\gazebo_20261028T062302Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S2\\gazebo_20261028T062302Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S2",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S2\\gazebo_20261028T062302Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "d7578907e62e85abcb4de62ecde15b1316d1494324f1910ccd7037b2118ca9a1"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063131Z_seed101__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063131Z_seed101",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063131Z_seed101\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063131Z_seed101\\imu_aligned.csv",
+        "time_origin_s": 24.424,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063131Z_seed101\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063131Z_seed101\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S3",
+        "seed": 101,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063131Z_seed101\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "e6eba1a6c93e42094afc74057713d525a9cd7d88be8fba1eee7fec6f73c474b4"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063240Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063240Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063240Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063240Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.496,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063240Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063240Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S3",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S3\\gazebo_20261028T063240Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "062d0d9d4c63dd3c4489105cfe8aae33dc06ab218be9807911e381918e986ad1"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063450Z_seed101__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063450Z_seed101",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063450Z_seed101\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063450Z_seed101\\imu_aligned.csv",
+        "time_origin_s": 24.5,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063450Z_seed101\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063450Z_seed101\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S4",
+        "seed": 101,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063450Z_seed101\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "8419236c188ff9b9375f66c3526e65d58b1597a0d1527d937790729e5a0a29ae"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063559Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063559Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063559Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063559Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.488,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063559Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063559Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S4",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S4\\gazebo_20261028T063559Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "30c4fc1305d1ae089dea31d3ec2450ccb3960de54bc191e5b9fe29bb9dad0b45"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063811Z_seed101__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063811Z_seed101",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063811Z_seed101\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063811Z_seed101\\imu_aligned.csv",
+        "time_origin_s": 24.468,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063811Z_seed101\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063811Z_seed101\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S5",
+        "seed": 101,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063811Z_seed101\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "a9448f12774f55ef917220ad23afd1deafc53d38561fe1160cbd3eb418640c78"
+      }
+    },
+    {
+      "id": "gazebo_20261028T063920Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T063920Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063920Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063920Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.424,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063920Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063920Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S5",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S5\\gazebo_20261028T063920Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "d2dcc71ddcbe63709a70a964ec9364a460395688aeb6b9d0339b6f8e239cd559"
+      }
+    },
+    {
+      "id": "gazebo_20261028T064134Z_seed101__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T064134Z_seed101",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "development",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064134Z_seed101\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064134Z_seed101\\imu_aligned.csv",
+        "time_origin_s": 24.456,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064134Z_seed101\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064134Z_seed101\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S6",
+        "seed": 101,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064134Z_seed101\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "e83154336d9cff1c8d6e1ff8d1f75c44d1b14dba3f4488a9c6cb7749f372976e"
+      }
+    },
+    {
+      "id": "gazebo_20261028T064243Z_seed202__base",
+      "batch": "batch2",
+      "parent_id": "gazebo_20261028T064243Z_seed202",
+      "source_id": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+      "split": "validation",
+      "inference": {
+        "microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064243Z_seed202\\audio\\mic_noisy.wav",
+        "telemetry_schema": "batch2_rpm",
+        "observed_csv": null,
+        "observed_imu_csv": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064243Z_seed202\\imu_aligned.csv",
+        "time_origin_s": 24.488,
+        "sample_rate": 16000,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_free_prefix_s": 0.8
+      },
+      "evaluation": {
+        "target_at_microphone": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064243Z_seed202\\audio\\clean_speech.wav",
+        "source_reference": null,
+        "noise": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064243Z_seed202\\audio\\drone_noise.wav",
+        "true_trajectory": null,
+        "source_offset_samples": 0,
+        "fixed_reference_m": null,
+        "active_interval_s": [
+          2.0,
+          14.0
+        ],
+        "event_labels": null
+      },
+      "condition": "base",
+      "metadata": {
+        "scenario": "S6",
+        "seed": 202,
+        "reused_test": true,
+        "pose": "unavailable",
+        "source_shared_across_partitions": true,
+        "manifest": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Data\\Data_Batch2\\runs\\S6\\gazebo_20261028T064243Z_seed202\\manifest.json",
+        "provenance": "px4_gazebo_hybrid",
+        "capture_sha256": "fabddb4deed846c93e72e51b2cca80a1989c4a350c7a97a481f74c165d6566d2"
+      }
+    }
+  ],
+  "test_opened": false,
+  "candidates": {
+    "audio_a0.9_b1.0": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "audio_only",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.9,
+        "dd_alpha": 0.96,
+        "beta": 1.0,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "audio_a0.95_b1.0": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "audio_only",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.95,
+        "dd_alpha": 0.96,
+        "beta": 1.0,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "audio_a0.98_b1.0": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "audio_only",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.98,
+        "dd_alpha": 0.96,
+        "beta": 1.0,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "audio_a0.95_b1.5": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "audio_only",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.95,
+        "dd_alpha": 0.96,
+        "beta": 1.5,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "audio_a0.98_b1.5": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "audio_only",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.98,
+        "dd_alpha": 0.96,
+        "beta": 1.5,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "fixed_rpm": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "fixed_rpm",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.95,
+        "dd_alpha": 0.96,
+        "beta": 1.5,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "bounded_rpm": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "bounded_rpm",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.95,
+        "dd_alpha": 0.96,
+        "beta": 1.5,
+        "floor": 0.04,
+        "rpm_weight": 0.75,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    },
+    "ridge": {
+      "sample_rate": 16000,
+      "detector_enabled": false,
+      "telemetry_max_age_s": 0.2,
+      "rpm_min": 100.0,
+      "rpm_max": 20000.0,
+      "freeze_after_s": 2.0,
+      "speech_free_prefix_s": null,
+      "enhancement": {
+        "enabled": true,
+        "mode": "ridge",
+        "n_fft": 1024,
+        "hop": 256,
+        "noise_alpha": 0.95,
+        "dd_alpha": 0.96,
+        "beta": 1.5,
+        "floor": 0.04,
+        "rpm_weight": 0.1,
+        "rpm_power": 2.0,
+        "psd_cap": 4.0,
+        "blades": 2,
+        "harmonics": 8,
+        "order_width_hz": 18.0,
+        "order_attenuation": 0.15,
+        "startup_s": 0.5,
+        "motion_enabled": false,
+        "motion_mu": 0.01,
+        "motion_cutoff_hz": 20.0
+      },
+      "amplitude": {
+        "enabled": false,
+        "max_gain_db": 18.0,
+        "smooth_s": 0.04,
+        "max_slew_db_s": 36.0,
+        "hold_s": 3.5,
+        "peak_ceiling": 0.95,
+        "reference_mode": "session",
+        "reference_distance_m": null,
+        "source_position_enu_m": null,
+        "source_associated": false,
+        "speech_only": true,
+        "event_control": true,
+        "snr_guard_enabled": true,
+        "snr_guard_low_db": 0.0,
+        "snr_guard_high_db": 10.0,
+        "max_pose_speed_m_s": 14.0
+      }
+    }
+  },
+  "objective": "Batch-balanced macro parent SI-SDR; development ranks eight, validation chooses among top three. No nonzero-RPM tie-break.",
+  "source_overlap": {
+    "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561": [
+      "development",
+      "test",
+      "validation"
+    ]
+  },
+  "limitation": "Batch2 capture splits reuse one speech source; all test sets were previously inspected."
+}

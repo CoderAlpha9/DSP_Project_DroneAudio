@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "unique_cases": 75,
+  "listening_rows": 90,
+  "unique_test_cases": 15,
+  "test_performance_rows": 270,
+  "observed_source_rec_numbers": [
+    "rec1",
+    "rec2",
+    "rec3",
+    "rec4",
+    "rec5"
+  ],
+  "output_wav_count": 180,
+  "all_waveforms_valid": true,
+  "selection_unchanged": true,
+  "synthetic_noise_added": false,
+  "denoising_applied": false,
+  "performance_tables_contain_test_only": true,
+  "rec5_alias_matches_rec4": true
+}

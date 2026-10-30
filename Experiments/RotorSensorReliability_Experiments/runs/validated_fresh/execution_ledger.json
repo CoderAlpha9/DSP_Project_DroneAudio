@@ -1,0 +1,47 @@
+{
+  "suite": "fresh",
+  "retuned": false,
+  "started_utc": "2026-10-30T11:10:25.931701+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "steps": [
+    {
+      "script": "fresh/fresh_reliability_study_v2.py",
+      "status": "executed",
+      "elapsed_s": 35.09162683699992
+    },
+    {
+      "script": "fresh/run_ridge_test_v3.py",
+      "status": "executed",
+      "elapsed_s": 33.34580876599989
+    },
+    {
+      "script": "scripts/plot_fresh.py",
+      "status": "executed",
+      "elapsed_s": 3.0915171439999085
+    },
+    {
+      "script": "scripts/compare.py",
+      "status": "executed",
+      "elapsed_s": 0.47802007799987223
+    }
+  ],
+  "source_sha256": {
+    "fresh/fresh_reliability_study_v2.py": "ca34758b1c27ff43345e5acb9975456c09b9090e3078854054656c4019487d34",
+    "fresh/ridge_audit_v3.py": "91ec6b5ddbcc31a28c42a5137892648279838360ce5d431baf71ae88ea997d99",
+    "fresh/run_ridge_test_v3.py": "7eac0af084681d933ee421b6565c2d3a22349eec7c484990febb0379d0f6a909",
+    "original/code/ablations.py": "bc240001b65d5b96edf5cfaf124ad992d6a31411dcba0673a1062506404134f8",
+    "original/code/analyze.py": "adf680014ad7d4d6c438c43d0d64a2601743fbe658f221f7abbe3fa8610bb3e8",
+    "original/code/baseline_sensitivity.py": "f713efe548a6189464d8e889660b380f27b46934d63412d93fd3a443983f4f46",
+    "original/code/experiment.py": "4f025ca35f39e86ce95ba53fcccb5a02768a11d48de17411abc23547aaeb6634",
+    "original/code/neural.py": "f81c81cd3844abe20f39ebcb1e04541a5397578cdcb1bd930a18047499f1bc57",
+    "original/code/prepare_data.py": "e791f509f06c929132badba2f3df626f49cb023767bfc6ecef1c9de8c523355a",
+    "original/code/stress.py": "0175bca7ef8974d74e0cc0e2d4219a5841d93c34e3a7b978f5a55d3f5a7b82b8",
+    "original/code/verify_results.py": "2a209962011c145517c7d149756998584583e03814693a019fd775ab9914a0a4",
+    "run.py": "acc7a3acb1e727d951046889939bb24a33f0180d8a97465bd04142c5c56e2cb0",
+    "scripts/compare.py": "62abd52198f0b83928e3fc175a64ed241e29311abf38fa3a9e40416c4f8b92a3",
+    "scripts/timing.py": "51cd50a4c6bc4ddf665b03ce16ebd015ae78b2ec8ea1e7b913415535c1db323c"
+  },
+  "status": "EXECUTED",
+  "elapsed_s": 72.01076150099993
+}

@@ -1,0 +1,250 @@
+{
+  "calibration_cases": 200,
+  "validation_cases": 100,
+  "candidates": [
+    {
+      "feature_set": "energy",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "energy",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "energy",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "energy",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "energy",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "energy",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "energy",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "energy",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "spectral",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "spectral",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "spectral",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "spectral",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "spectral",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "spectral",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "spectral",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "spectral",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "phase",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "phase",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "phase",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "phase",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "phase",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "phase",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "phase",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "phase",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "group_delay",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "full",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "full",
+      "C": 0.1,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "full",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "full",
+      "C": 0.1,
+      "on": 0.7,
+      "release": 25
+    },
+    {
+      "feature_set": "full",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 10
+    },
+    {
+      "feature_set": "full",
+      "C": 1.0,
+      "on": 0.5,
+      "release": 25
+    },
+    {
+      "feature_set": "full",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 10
+    },
+    {
+      "feature_set": "full",
+      "C": 1.0,
+      "on": 0.7,
+      "release": 25
+    }
+  ],
+  "selected_feature_set": "spectral",
+  "objective": "Validation mean activity DCF + .5 speech DCF; fitted on calibration only; development scores not exported",
+  "split": "60 development / 15 test base recordings; all five descendants keep parent split",
+  "random_seed": 98211
+}

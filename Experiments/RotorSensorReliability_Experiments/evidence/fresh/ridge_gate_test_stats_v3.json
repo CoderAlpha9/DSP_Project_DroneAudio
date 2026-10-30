@@ -1,0 +1,89 @@
+{
+  "config": {
+    "gate_lo": 0.2,
+    "gate_hi": 0.6000000000000001,
+    "dev_mean_lambda": 0.06762462405485233,
+    "dev_mean_stft_sdr": 0.7203892886926185,
+    "dev_p10_stft_sdr": -6.583722191337731,
+    "selection": "maximize mean STFT-SDR + .25*p10; within 0.01 dB choose the candidate with greater telemetry use to reject the trivial always-audio solution"
+  },
+  "n_case_conditions": 192,
+  "stats": {
+    "audio_only": {
+      "mean_delta": -0.015225012795462796,
+      "median_delta": -0.0040914803777694075,
+      "ci95_case_cluster": [
+        -0.025161057367377036,
+        -0.005862685533284618
+      ],
+      "win_rate": 0.3333333333333333,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "fixed_0.1": {
+      "mean_delta": 0.012099532710129575,
+      "median_delta": 0.011180662491135918,
+      "ci95_case_cluster": [
+        -0.0006712176536890662,
+        0.026284954096771937
+      ],
+      "win_rate": 0.6354166666666666,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "pure_rpm": {
+      "mean_delta": 0.458217026636553,
+      "median_delta": 0.4723438229288539,
+      "ci95_case_cluster": [
+        0.34100603822875564,
+        0.5775179603130268
+      ],
+      "win_rate": 0.8697916666666666,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.4635416666666667
+    },
+    "bounded_0.75": {
+      "mean_delta": 0.23835952235305116,
+      "median_delta": 0.2506464101576471,
+      "ci95_case_cluster": [
+        0.15721697952306787,
+        0.3142165943314456
+      ],
+      "win_rate": 0.828125,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.16145833333333334
+    }
+  },
+  "overall": [
+    {
+      "method": "audio_only",
+      "mean_sisdr": 0.470751111473628,
+      "p10_sisdr": -7.7569895238420425,
+      "mean_lambda": 0.0
+    },
+    {
+      "method": "ridge_adaptive_capped",
+      "mean_sisdr": 0.45552609867816524,
+      "p10_sisdr": -7.765755515685818,
+      "mean_lambda": 0.07232886826226913
+    },
+    {
+      "method": "fixed_0.1",
+      "mean_sisdr": 0.44342656596803565,
+      "p10_sisdr": -7.7914917167257425,
+      "mean_lambda": 0.10000000000000002
+    },
+    {
+      "method": "bounded_0.75",
+      "mean_sisdr": 0.21716657632511405,
+      "p10_sisdr": -8.109927687480926,
+      "mean_lambda": 0.75
+    },
+    {
+      "method": "pure_rpm",
+      "mean_sisdr": -0.002690927958387735,
+      "p10_sisdr": -8.232034222905074,
+      "mean_lambda": 1.0
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "config": {
+    "best_nonzero_fixed_lambda": 0.1,
+    "best_fixed_including_audio_lambda": 0.1,
+    "gate_lo": 0.35,
+    "gate_hi": 0.85,
+    "development_objective": "mean complex-STFT SDR + 0.25 * 10th-percentile across 16 development acoustic realizations x 6 telemetry states; test SI-SDR never used for tuning"
+  },
+  "spectral_evaluations": 4896,
+  "test_waveform_reconstructions": 1344,
+  "stats": {
+    "fixed_0.1": {
+      "mean_delta": 0.026911249563577076,
+      "median_delta": 0.025545957965122934,
+      "ci95_case_cluster": [
+        0.012761978539526916,
+        0.04210123265070568
+      ],
+      "win_rate": 0.71875,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_1.0": {
+      "mean_delta": 0.4730287434900007,
+      "median_delta": 0.4852023407596676,
+      "ci95_case_cluster": [
+        0.3436504330172841,
+        0.6037712056408259
+      ],
+      "win_rate": 0.8645833333333334,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_0.0": {
+      "mean_delta": -0.0004132959420150943,
+      "median_delta": 0.0,
+      "ci95_case_cluster": [
+        -0.000849411931005153,
+        -8.009128607649339e-05
+      ],
+      "win_rate": 0.015625,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "bounded_0.75": {
+      "mean_delta": 0.25317123920649864,
+      "median_delta": 0.2575356926043235,
+      "ci95_case_cluster": [
+        0.1706909404797677,
+        0.33514585522045387
+      ],
+      "win_rate": 0.8333333333333334,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_0.1_vs_audio": {
+      "mean_delta": -0.02732454550559217,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "fixed_1.0_vs_audio": {
+      "mean_delta": -0.4734420394320158,
+      "harm_gt_0p5_rate": 0.4895833333333333,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "bounded_0.75_vs_audio": {
+      "mean_delta": -0.2535845351485137,
+      "harm_gt_0p5_rate": 0.1875,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "adaptive_capped_vs_audio": {
+      "mean_delta": -0.0004132959420150943,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    }
+  },
+  "elapsed_s": 32.56973743438721
+}

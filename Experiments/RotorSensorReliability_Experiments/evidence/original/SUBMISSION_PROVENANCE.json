@@ -1,0 +1,25 @@
+{
+  "experimental_matrix": "Existing completed study; no new empirical runs for this submission",
+  "new_material": "Analytical propositions and explanatory synthesis",
+  "original_research_package_sha256": "e0595bccc2d94b1cb6712983520ddabacd04db3833097f3a4a4ac2284694df64",
+  "original_results_sha256": {
+    "all_split_summary.csv": "30452f333709994d395d7b221a03fbf65ced964b2161e77dd2016cb4aa73d4a8",
+    "neural.csv": "bcf64cb3629d1a3e1b6fe8b890400aa3f7641697e07d37c7b29ac0b5d6a10618",
+    "baseline_sensitivity.csv": "b71ba8e421a79cd974d30f6e6f5bc026e2f924affb4f0613bfe3b2107b217954",
+    "baseline_development.csv": "aa00b1a26fb6af9ef6c044bec9e97ebd459d616c258bec3f15b9e2dd5c6ffa32",
+    "dataset_audit.csv": "afa4965c15b23cbf3fd3d2e41e551ee5f79fd354cd308a6bf7e54e8e0bdc1e39",
+    "stress.csv": "d3669bbeaee1111fdc708350348563aa2d10ce3b33a4f28bb1e70accad11599c",
+    "main.csv": "4446874c71ef8cee093ed198987e87d19b4fd321624631d5f0f6aef90a6d2608",
+    "holdout_by_snr.csv": "bfd4c0000afc51322e20f8e542cc91f5e3054551e32811865cb9ed2f410ff554",
+    "isolated_timing.csv": "61e20c3d072b88770014f8427dde0feb75f68c25e383ac2b3008f855a1d8a9e3",
+    "ablations.csv": "a70a0aa9ff05517d1e8b96e06f9331467157de3d80bd3e33cbc6a633c2d9934d",
+    "holdout_summary.csv": "2076e2a215a105b8733f047a6ba32ec31955c9019edce819de20f26e880c80d6",
+    "holdout_by_condition.csv": "b54c71054a2d8b25376fa549fac5be4722101fbbd858e917cce249665dac9c67",
+    "fault_windows.csv": "5a9a5da388e0f7a96504965428c6285b7a6a9168bf9096844f0c95fa86b23f83",
+    "all_results.csv": "acc0e6844f498e31ef0a7123542235a83316444a6a637d8a5a0aa8d7245d114a",
+    "development.csv": "d770b9baf52b6704653a0e6539b8f617fca8c86069de4c7d44d54968862a381f",
+    "linear_audit.csv": "7790d44c22f3edf49b06be320690e2db966779cb7e9e939547ad315a99bc1a21",
+    "paired_statistics.csv": "0c38d4504332fcc29bfe05fc5efab1389b32f331ff7c1e1476733f429420d10e"
+  },
+  "new_reference": "Marmaroli, Falourd, Lissek, Acoustics 2012, pp. 2937-2942; EPFL and conference records verified"
+}

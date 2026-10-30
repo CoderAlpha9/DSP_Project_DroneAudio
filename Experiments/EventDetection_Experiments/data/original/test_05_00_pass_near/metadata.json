@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_05_00_pass_near",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "pass_near",
+  "seed": 20361529,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "good",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 3.6730576513527913,
+  "distance_max_m": 14.494954923594863,
+  "speed_max_m_s": 3.701761841536233,
+  "acceleration_max_m_s2": 0.5638438016590345,
+  "active_snr_median_db": -3.628531675905125,
+  "active_fraction_below_3db": 0.683991683991684,
+  "relative_path": "test/test_05_00_pass_near"
+}

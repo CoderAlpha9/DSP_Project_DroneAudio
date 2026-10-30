@@ -1,0 +1,9 @@
+{
+  "source": "Open Speech Repository",
+  "url": "http://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0010_8k.wav",
+  "terms": "https://www.voiptroubleshooter.com/open_speech/index.html",
+  "attribution": "Open Speech Repository",
+  "license": "Open Speech Repository terms: research, copying and modification allowed with source attribution",
+  "source_sha256": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+  "note": "8 kHz narrowband human speech; resampling does not restore frequencies above 4 kHz. One speaker starter evaluation only."
+}

@@ -1,0 +1,12 @@
+{
+  "scenario": "S7",
+  "flight_success_verified": false,
+  "failure": "TimeoutError('Arm rejected')",
+  "mission_status": "FAIL",
+  "controller": "ROS2_Humble_px4_msgs_release_1.16",
+  "events": 1,
+  "vehicle_samples": 638,
+  "gz_imu_samples": 4477,
+  "px4_imu_samples": 3764,
+  "command_samples": 0
+}

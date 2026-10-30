@@ -1,0 +1,61 @@
+[
+  {
+    "id": "bandpass",
+    "family": "bandpass"
+  },
+  {
+    "id": "lsa_b1.5_f0.04",
+    "family": "lsa",
+    "beta": 1.5,
+    "floor": 0.04
+  },
+  {
+    "id": "quantile_b1.5_f0.04",
+    "family": "quantile",
+    "beta": 1.5,
+    "floor": 0.04
+  },
+  {
+    "id": "raw",
+    "family": "raw"
+  },
+  {
+    "id": "rrst_p2.0_b1.5",
+    "family": "rrst",
+    "power": 2.0,
+    "beta": 1.5,
+    "floor": 0.04
+  },
+  {
+    "id": "rrst_broadband_p6.0_b1.0",
+    "family": "rrst_broadband",
+    "power": 6.0,
+    "beta": 1.0,
+    "floor": 0.04
+  },
+  {
+    "id": "rrst_guard_p2.0_b1.0",
+    "family": "rrst_guard",
+    "power": 2.0,
+    "beta": 1.0,
+    "floor": 0.04
+  },
+  {
+    "id": "spp_b1.5_f0.04",
+    "family": "spp",
+    "beta": 1.5,
+    "floor": 0.04
+  },
+  {
+    "id": "static_b1.5_f0.04",
+    "family": "static",
+    "beta": 1.5,
+    "floor": 0.04
+  },
+  {
+    "id": "sub_b1.5_f0.04",
+    "family": "sub",
+    "beta": 1.5,
+    "floor": 0.04
+  }
+]

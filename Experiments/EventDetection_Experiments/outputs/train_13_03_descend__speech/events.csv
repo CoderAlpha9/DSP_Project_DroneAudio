@@ -1,0 +1,4 @@
+event_id,start_s,end_s,decision_available_s
+1,0.01,3.05,0.12
+2,3.1,8.08,3.21
+3,8.64,10.0,8.75

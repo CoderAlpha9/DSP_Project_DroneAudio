@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_14_02_mixed_3d",
+  "source_offset_samples": 296560,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

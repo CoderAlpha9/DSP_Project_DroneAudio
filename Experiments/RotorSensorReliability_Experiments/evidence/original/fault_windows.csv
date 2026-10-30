@@ -1,0 +1,15 @@
+method,window,sisdr
+full,pre_fault,7.043166512913014
+full,post_fault,7.404586470160063
+no_amplitude,pre_fault,7.0437025292849045
+no_amplitude,post_fault,7.408220263547014
+no_frequency_transport,pre_fault,6.981216416246766
+no_frequency_transport,post_fault,7.34712739003098
+one_mean_speed,pre_fault,7.042265283779687
+one_mean_speed,post_fault,7.404894627230001
+no_rpm,pre_fault,6.981374921127407
+no_rpm,post_fault,7.350338949225099
+spp_same_gain,pre_fault,6.946110912818046
+spp_same_gain,post_fault,7.282493126433195
+capped_fusion_same_gain,pre_fault,7.146403524909935
+capped_fusion_same_gain,post_fault,7.311109602215431

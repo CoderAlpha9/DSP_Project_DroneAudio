@@ -1,0 +1,36 @@
+{
+  "tolerance": 1e-07,
+  "all_within_tolerance": true,
+  "checks": [
+    {
+      "file": "fresh_reliability_4896_v2.csv",
+      "metric": "stft_sdr",
+      "max_absolute_delta": 4.440892098500626e-16,
+      "within_tolerance": true
+    },
+    {
+      "file": "fresh_test_waveform_v2.csv",
+      "metric": "sisdr",
+      "max_absolute_delta": 4.440892098500626e-16,
+      "within_tolerance": true
+    },
+    {
+      "file": "fresh_test_waveform_v2.csv",
+      "metric": "snr",
+      "max_absolute_delta": 4.440892098500626e-16,
+      "within_tolerance": true
+    },
+    {
+      "file": "ridge_gate_test_v3.csv",
+      "metric": "sisdr",
+      "max_absolute_delta": 1.4210854715202004e-14,
+      "within_tolerance": true
+    },
+    {
+      "file": "ridge_gate_test_v3.csv",
+      "metric": "mean_lambda",
+      "max_absolute_delta": 0.0,
+      "within_tolerance": true
+    }
+  ]
+}

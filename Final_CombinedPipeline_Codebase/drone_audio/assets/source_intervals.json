@@ -1,0 +1,14 @@
+{
+  "version": "visual-v1-frozen-before-vad-selection",
+  "label_type": "Approximate speech-region reference from waveform and spectrogram inspection, not human listening or forced-alignment ground truth",
+  "boundary_collar_s": 0.08,
+  "definition": "Include speech-bearing phrases and short internal gaps. Exclude clear inter-phrase silence, recording hiss, breaths where distinguishable, and the rec4 startup transient. Speaker identities are not labelled.",
+  "limitations": "Coarse visual regions can include brief pauses and miss weak unvoiced material. Report collar sensitivity and do not interpret F1 as certified phonetic VAD accuracy. User correction of intervals is supported.",
+  "sources": {
+    "52f12a62d905": [[0.9,2.08],[2.17,2.62],[2.77,3.28],[3.4,3.82],[4.03,4.63],[4.69,4.88],[5.22,6.3],[6.39,7.46],[8.28,8.95],[9.08,9.67],[9.76,10.47],[10.52,11.13],[11.23,11.73],[14.78,15.48],[15.53,16.2],[16.3,17.03],[17.75,18.42],[18.54,19.18]],
+    "c414202e8f9c": [[2.64,6.63],[7.06,10.86],[12.75,18.2],[19.7,26.36],[26.8,29.66]],
+    "64de953209db": [[0.43,2.88],[4.25,6.35],[7.56,9.83],[10.9,13.12],[14.23,16.17],[17.35,19.52],[20.53,22.5],[23.65,25.82],[27.0,28.9],[29.95,32.12]],
+    "ecfa678c8671": [[1.63,2.04],[2.15,2.74],[2.9,3.91],[4.2,4.88],[4.9,5.14],[5.78,6.16]],
+    "open_librispeech": [[0.3,2.81],[3.36,4.45],[4.78,6.57],[6.71,7.8],[8.32,9.7],[10.31,14.68]]
+  }
+}

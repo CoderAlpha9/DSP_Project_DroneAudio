@@ -1,0 +1,37 @@
+{
+  "execution_date_utc": "2026-10-29T17:25:18.376394+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "pystoi": "0.4.1",
+    "pesq": "0.0.4"
+  },
+  "deepfilter_binary_version": "0.5.6",
+  "deepfilter_default_model": "DeepFilterNet3_onnx",
+  "deepfilter_sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
+  "input_archives": {
+    "S3(1).zip": "417298946520b3e792de01b06bdfe1df522d3227c995df4e61023fab00b0a1ff",
+    "S6(1).zip": "7993a254c4647327a81ece16122660bc46803ff8b2079d5da9192a5c3b369ec5",
+    "data.zip": "99460c7ea84c37761f2f8f8441d7dbe836a4ca98e06c76303afa13db4a987d52"
+  },
+  "code_sha256": {
+    "ablations.py": "bc240001b65d5b96edf5cfaf124ad992d6a31411dcba0673a1062506404134f8",
+    "fetch_bibliography.py": "d1cfa176a0b3f879f057a0873cf6d56935a0ca5ff2ac07c559a572e396eec555",
+    "write_supplement_tables.py": "abb3d7955bb1a7fb1e7fd1f667b9ded2675e324100dce4e68893cdad118b8167",
+    "experiment.py": "dcb27a039dc955d6dec0e2dfe470c21db5931cdb228c9bb7142dffbc2b0b07fa",
+    "neural.py": "13b0698e258cdf46439c46c861ab18ed5b6b98680ce8ab0e38c4188468c3c9bb",
+    "analyze.py": "adf680014ad7d4d6c438c43d0d64a2601743fbe658f221f7abbe3fa8610bb3e8",
+    "write_bibliography.py": "b4687b1782e2724136e92bfdd75719e3bf16546eab28aaf5a087a27f9435d5a5",
+    "prepare_data.py": "a6971472e7cb3f41235841cdea8a5d58d20d8f69b0e493d6277ecf113996d02f",
+    "write_manuscript.py": "0ece6c8ee3c26ffb9bef899f684eccacf97cd22c5917dc191fdfa0c47e966b7f",
+    "verify_results.py": "2a209962011c145517c7d149756998584583e03814693a019fd775ab9914a0a4",
+    "stress.py": "0175bca7ef8974d74e0cc0e2d4219a5841d93c34e3a7b978f5a55d3f5a7b82b8",
+    "build_papers.py": "faa158791bd1ebbd7193562107995e27da37ce25c614dd8d2e78f604f5f80fba",
+    "baseline_sensitivity.py": "c9d4f41b2a610566182bb983fa6d13a80780ad9cadaf8cd8f0e5140ada8053b8"
+  },
+  "cpu": "AMD EPYC 9V74, nine virtual CPUs exposed; BLAS/OpenMP threads=1"
+}

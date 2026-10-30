@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_06_00_pass_far",
+  "source_offset_samples": 98142,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

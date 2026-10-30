@@ -1,0 +1,104 @@
+case 19 elapsed 3.7
+case 23 elapsed 6.8
+case 27 elapsed 9.6
+case 31 elapsed 12.4
+case 35 elapsed 15.1
+case 39 elapsed 17.8
+case 43 elapsed 20.8
+case 47 elapsed 23.5
+
+                method  mean_sisdr  p10_sisdr  mean_lambda
+           audio_only    0.470751  -7.756990     0.000000
+ridge_adaptive_capped    0.455526  -7.765756     0.072329
+            fixed_0.1    0.443427  -7.791492     0.100000
+         bounded_0.75    0.217167  -8.109928     0.750000
+             pure_rpm   -0.002691  -8.232034     1.000000
+{
+  "config": {
+    "gate_lo": 0.2,
+    "gate_hi": 0.6000000000000001,
+    "dev_mean_lambda": 0.06762462405485233,
+    "dev_mean_stft_sdr": 0.7203892886926185,
+    "dev_p10_stft_sdr": -6.583722191337731,
+    "selection": "maximize mean STFT-SDR + .25*p10; within 0.01 dB choose the candidate with greater telemetry use to reject the trivial always-audio solution"
+  },
+  "n_case_conditions": 192,
+  "stats": {
+    "audio_only": {
+      "mean_delta": -0.015225012795462262,
+      "median_delta": -0.004091480377767409,
+      "ci95_case_cluster": [
+        -0.025161057367376102,
+        -0.005862685533284825
+      ],
+      "win_rate": 0.3333333333333333,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "fixed_0.1": {
+      "mean_delta": 0.01209953271012991,
+      "median_delta": 0.011180662491139248,
+      "ci95_case_cluster": [
+        -0.000671217653688632,
+        0.026284954096771597
+      ],
+      "win_rate": 0.6354166666666666,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "pure_rpm": {
+      "mean_delta": 0.45821702663655345,
+      "median_delta": 0.47234382292885213,
+      "ci95_case_cluster": [
+        0.3410060382287567,
+        0.5775179603130278
+      ],
+      "win_rate": 0.8697916666666666,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.4635416666666667
+    },
+    "bounded_0.75": {
+      "mean_delta": 0.23835952235305147,
+      "median_delta": 0.25064641015764755,
+      "ci95_case_cluster": [
+        0.15721697952306762,
+        0.3142165943314456
+      ],
+      "win_rate": 0.828125,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.16145833333333334
+    }
+  },
+  "overall": [
+    {
+      "method": "audio_only",
+      "mean_sisdr": 0.4707511114736274,
+      "p10_sisdr": -7.756989523842046,
+      "mean_lambda": 0.0
+    },
+    {
+      "method": "ridge_adaptive_capped",
+      "mean_sisdr": 0.45552609867816524,
+      "p10_sisdr": -7.76575551568582,
+      "mean_lambda": 0.07232886826226913
+    },
+    {
+      "method": "fixed_0.1",
+      "mean_sisdr": 0.44342656596803526,
+      "p10_sisdr": -7.791491716725745,
+      "mean_lambda": 0.10000000000000002
+    },
+    {
+      "method": "bounded_0.75",
+      "mean_sisdr": 0.21716657632511374,
+      "p10_sisdr": -8.10992768748093,
+      "mean_lambda": 0.75
+    },
+    {
+      "method": "pure_rpm",
+      "mean_sisdr": -0.002690927958388309,
+      "p10_sisdr": -8.232034222905076,
+      "mean_lambda": 1.0
+    }
+  ]
+}

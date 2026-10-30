@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "max_stem_error": 7.043126970529556e-09,
+  "max_linear_mix_error": 7.450580596923828e-09,
+  "rpm_min": [
+    7162.090224451952,
+    7266.593758056083,
+    7165.817512952093,
+    7265.2481367220935
+  ],
+  "rpm_max": [
+    8071.677747949536,
+    7648.190959301749,
+    8069.182745882064,
+    7644.85053470136
+  ],
+  "frames": 240000,
+  "sample_rate": 16000,
+  "synth_not_real": true,
+  "provenance": "px4_gazebo_hybrid",
+  "flight_success_verified": true
+}

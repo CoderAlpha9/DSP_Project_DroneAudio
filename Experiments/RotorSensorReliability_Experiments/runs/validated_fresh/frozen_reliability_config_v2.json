@@ -1,0 +1,7 @@
+{
+  "best_nonzero_fixed_lambda": 0.1,
+  "best_fixed_including_audio_lambda": 0.1,
+  "gate_lo": 0.35,
+  "gate_hi": 0.85,
+  "development_objective": "mean complex-STFT SDR + 0.25 * 10th-percentile across 16 development acoustic realizations x 6 telemetry states; test SI-SDR never used for tuning"
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_12_00_climb",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "climb",
+  "seed": 20262229,
+  "source_offset_samples": 47160,
+  "initial_nominal_active_snr_db": -3,
+  "sensor_condition": "dropout",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.916079783099615,
+  "distance_max_m": 21.811132715193125,
+  "speed_max_m_s": 2.3424915092510235,
+  "acceleration_max_m_s2": 0.3568032699634233,
+  "active_snr_median_db": -12.00405735370708,
+  "active_fraction_below_3db": 0.9943502824858758,
+  "relative_path": "train/train_12_00_climb"
+}

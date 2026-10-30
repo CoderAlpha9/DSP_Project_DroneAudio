@@ -1,0 +1,20 @@
+{
+  "unique_cases": 75,
+  "unique_train_cases": 60,
+  "unique_test_cases": 15,
+  "listening_rows": 90,
+  "output_wavs": 180,
+  "duplicate_alias_cases": 15,
+  "source_rec_numbers": [
+    "rec1",
+    "rec2",
+    "rec3",
+    "rec4",
+    "rec5"
+  ],
+  "synthetic_noise_added": false,
+  "denoising_applied": false,
+  "performance_tables_test_only": true,
+  "input_wavs_copied_bit_exact": true,
+  "output_format": "Mono 16 kHz PCM16, fixed scale, no per-file normalization."
+}

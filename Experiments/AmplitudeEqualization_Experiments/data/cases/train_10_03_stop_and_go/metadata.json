@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_10_03_stop_and_go",
+  "source_offset_samples": 236398,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

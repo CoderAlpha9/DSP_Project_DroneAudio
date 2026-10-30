@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_07_00_orbit",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "orbit",
+  "seed": 20361729,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": 15,
+  "sensor_condition": "dropout",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 10.672301283186657,
+  "distance_max_m": 10.67230128318666,
+  "speed_max_m_s": 5.386804046473675,
+  "acceleration_max_m_s2": 2.903964702483876,
+  "active_snr_median_db": 2.2900157590532593,
+  "active_fraction_below_3db": 0.5717255717255717,
+  "relative_path": "test/test_07_00_orbit"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_rate": 16000,
+  "block_ms": 20.0,
+  "method": "hybrid",
+  "max_gain_db": 18.0,
+  "geometry_weight": 1.0,
+  "smooth_s": 0.04,
+  "max_slew_db_s": 36.0,
+  "reference_distance_m": null,
+  "envelope_s": 0.25,
+  "percentile": 85.0,
+  "history_s": 2.0,
+  "fallback": "hold",
+  "hold_s": 3.5,
+  "confidence_checks": true,
+  "max_pose_speed_m_s": 14.0,
+  "peak_ceiling": 0.95,
+  "warm_start": true,
+  "min_event_rms": 1e-05,
+  "event_close_s": 1.0,
+  "reset_on_close": true
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_03_03_approach",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "approach",
+  "seed": 20261350,
+  "source_offset_samples": 116677,
+  "initial_nominal_active_snr_db": 9,
+  "sensor_condition": "drift",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.667507285446289,
+  "distance_max_m": 33.32831528107374,
+  "speed_max_m_s": 3.921383967653926,
+  "acceleration_max_m_s2": 0.5972958034473642,
+  "active_snr_median_db": 10.588068985985664,
+  "active_fraction_below_3db": 0.1885245901639344,
+  "relative_path": "train/train_03_03_approach"
+}

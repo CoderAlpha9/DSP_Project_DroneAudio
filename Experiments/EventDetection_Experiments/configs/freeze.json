@@ -1,0 +1,6 @@
+{
+  "selected_sha256": "207eb64c4044a3739a99543deecb97ab22531cf0f586dc7fad75ad7f9bc64913",
+  "core_sha256": "5d97b803484c81b0a703f86fde6a05aeda2a021afddfc0f25c262b8f27b2cd71",
+  "frozen_before_test_load": true,
+  "test_status": "Reused recording benchmark, not fresh blind validation. Synthetic non-speech waveforms have disjoint seeds."
+}

@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_01_02_recede_slow",
+  "source_offset_samples": 182004,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

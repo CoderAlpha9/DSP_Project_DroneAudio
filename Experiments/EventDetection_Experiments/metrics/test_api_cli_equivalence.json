@@ -1,0 +1,6 @@
+{
+  "case_id": "test_00_00_hover__speech",
+  "split": "test",
+  "integrated_audio_bit_exact": true,
+  "cli_events_and_speech_exact": true
+}

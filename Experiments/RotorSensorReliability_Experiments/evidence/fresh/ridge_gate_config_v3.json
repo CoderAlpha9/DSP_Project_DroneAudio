@@ -1,0 +1,8 @@
+{
+  "gate_lo": 0.2,
+  "gate_hi": 0.6000000000000001,
+  "dev_mean_lambda": 0.06762462405485233,
+  "dev_mean_stft_sdr": 0.7203892886926185,
+  "dev_p10_stft_sdr": -6.583722191337731,
+  "selection": "maximize mean STFT-SDR + .25*p10; within 0.01 dB choose the candidate with greater telemetry use to reject the trivial always-audio solution"
+}

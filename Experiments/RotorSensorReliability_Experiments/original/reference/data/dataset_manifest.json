@@ -1,0 +1,6 @@
+{
+  "schema_version": "ros2_humble_px4_gazebo_dataset_v2",
+  "flight_runs": 4,
+  "index_sha256": "40dfe8bfe22cab7d8797c43fe616e7417492c3c8c058e7929ce3793beab6187f",
+  "microphone_provenance": "physical_Gazebo_telemetry_plus_synthetic_waveform_NOT_REAL_MIC"
+}

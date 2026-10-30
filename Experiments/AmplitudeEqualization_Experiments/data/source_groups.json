@@ -1,0 +1,55 @@
+[
+  {
+    "source_group": "52f12a62d905",
+    "decoded_sha256": "52f12a62d9057d0a2d4d9d3e3c74ad8e2aa4f2ce9e5506e9621e06f972cba05f",
+    "original_filenames": [
+      "rec1.mp4"
+    ],
+    "split": "train",
+    "duration_s": 22.1013125,
+    "preparation_scalar": 0.887421847252029,
+    "decoded_peak": 0.732451319694519,
+    "near_fullscale_fraction": 0.0,
+    "note": "Source is a recorded reference proxy; existing room noise/distortion is retained."
+  },
+  {
+    "source_group": "c414202e8f9c",
+    "decoded_sha256": "c414202e8f9c5cf492501f3384d5e144bc775d0480f18948ddad7c0848f09efb",
+    "original_filenames": [
+      "rec2.wav"
+    ],
+    "split": "train",
+    "duration_s": 32.5119375,
+    "preparation_scalar": 0.5038899835098776,
+    "decoded_peak": 0.9388521909713745,
+    "near_fullscale_fraction": 0.0,
+    "note": "Source is a recorded reference proxy; existing room noise/distortion is retained."
+  },
+  {
+    "source_group": "64de953209db",
+    "decoded_sha256": "64de953209dbe72bdf4bdd508b45d63d22bf728b5ca85c067e6a5cd1bfc1ce17",
+    "original_filenames": [
+      "rec3.wav"
+    ],
+    "split": "train",
+    "duration_s": 33.623125,
+    "preparation_scalar": 1.735005188995286,
+    "decoded_peak": 0.3405175805091858,
+    "near_fullscale_fraction": 0.0,
+    "note": "Source is a recorded reference proxy; existing room noise/distortion is retained."
+  },
+  {
+    "source_group": "ecfa678c8671",
+    "decoded_sha256": "ecfa678c8671a38e5276e8da040458722ba6c4fe45c3cf69dc7a0e15cc19797d",
+    "original_filenames": [
+      "rec4.wav",
+      "rec5.wav"
+    ],
+    "split": "test",
+    "duration_s": 10.0,
+    "preparation_scalar": 4.3860823663665185,
+    "decoded_peak": 0.151123046875,
+    "near_fullscale_fraction": 0.0,
+    "note": "Source is a recorded reference proxy; existing room noise/distortion is retained."
+  }
+]

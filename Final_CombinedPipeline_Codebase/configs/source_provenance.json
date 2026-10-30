@@ -1,0 +1,32 @@
+[
+  {
+    "source": "Experiments/EventDetection_Experiments/pipeline/detector.py",
+    "destination": "drone_audio/detection.py",
+    "sha256": "5d97b803484c81b0a703f86fde6a05aeda2a021afddfc0f25c262b8f27b2cd71"
+  },
+  {
+    "source": "Experiments/EventDetection_Experiments/configs/selected.json",
+    "destination": "drone_audio/assets/detector_selected.json",
+    "sha256": "207eb64c4044a3739a99543deecb97ab22531cf0f586dc7fad75ad7f9bc64913"
+  },
+  {
+    "source": "Experiments/EventDetection_Experiments/configs/source_intervals.json",
+    "destination": "drone_audio/assets/source_intervals.json",
+    "sha256": "77f2f106f21f9787cf4dd848c83df5c1936a7105e9eabe90ec38431114a257b2"
+  },
+  {
+    "source": "Experiments/AmplitudeEqualization_Experiments/configs/selected.json",
+    "destination": "drone_audio/assets/amplitude_selected.json",
+    "sha256": "26dfc53236cd97bbc4b52a5ccdff3149b00a89ff668542b65424a586c706c034"
+  },
+  {
+    "source": "Experiments/RotorSensorReliability_Experiments/configs/frozen_reliability_config_v2.json",
+    "destination": "drone_audio/assets/reliability_selected.json",
+    "sha256": "05cd118e4607d884faeec92501680830a150815d1e4ce4f82dfd1fb3d129fa45"
+  },
+  {
+    "source": "Experiments/RotorSensorReliability_Experiments/configs/ridge_gate_config_v3.json",
+    "destination": "drone_audio/assets/ridge_selected.json",
+    "sha256": "822cffc21ddb4f6a62cda5c18b489905703c206ba99bdd360a7c1c108b4414ec"
+  }
+]

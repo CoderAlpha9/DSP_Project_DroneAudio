@@ -1,0 +1,208 @@
+{
+  "config": {
+    "best_nonzero_fixed_lambda": 0.1,
+    "best_fixed_including_audio_lambda": 0.1,
+    "gate_lo": 0.35,
+    "gate_hi": 0.85,
+    "development_objective": "mean complex-STFT SDR + 0.25 * 10th-percentile across 16 development acoustic realizations x 6 telemetry states; test SI-SDR never used for tuning"
+  },
+  "spectral_evaluations": 4896,
+  "test_waveform_reconstructions": 1344,
+  "n_test_case_conditions": 192,
+  "stats": {
+    "fixed_0.1": {
+      "mean_delta": 0.026911249563577017,
+      "median_delta": 0.025545957965122934,
+      "ci95_case_cluster": [
+        0.012509322393841804,
+        0.042318515180626015
+      ],
+      "win_rate": 0.71875,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_1.0": {
+      "mean_delta": 0.4730287434900006,
+      "median_delta": 0.4852023407596675,
+      "ci95_case_cluster": [
+        0.3448379941211206,
+        0.6047077010456854
+      ],
+      "win_rate": 0.8645833333333334,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_0.0": {
+      "mean_delta": -0.0004132959420150943,
+      "median_delta": 0.0,
+      "ci95_case_cluster": [
+        -0.0008633568412008963,
+        -7.794220347961431e-05
+      ],
+      "win_rate": 0.015625,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "bounded_0.75": {
+      "mean_delta": 0.2531712392064986,
+      "median_delta": 0.2575356926043235,
+      "ci95_case_cluster": [
+        0.17047350027637123,
+        0.33533899745536205
+      ],
+      "win_rate": 0.8333333333333334,
+      "harm_gt_0p5_rate": 0.0
+    },
+    "fixed_0.1_vs_audio": {
+      "mean_delta": -0.027324545505592112,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "fixed_1.0_vs_audio": {
+      "mean_delta": -0.47344203943201574,
+      "harm_gt_0p5_rate": 0.4895833333333333,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "bounded_0.75_vs_audio": {
+      "mean_delta": -0.2535845351485137,
+      "harm_gt_0p5_rate": 0.1875,
+      "benefit_gt_0p5_rate": 0.0
+    },
+    "adaptive_capped_vs_audio": {
+      "mean_delta": -0.0004132959420150943,
+      "harm_gt_0p5_rate": 0.0,
+      "benefit_gt_0p5_rate": 0.0
+    }
+  },
+  "by_condition": {
+    "drift_m20": {
+      "fixed_0.1": {
+        "mean_delta": 0.04767783514727822,
+        "win_rate": 0.875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.7396984965565412,
+        "win_rate": 1.0,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.00013013457615444757,
+        "win_rate": 0.0,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.4631963668646233,
+        "win_rate": 0.96875,
+        "harm_gt_0p5_rate": 0.0
+      }
+    },
+    "hold_2s": {
+      "fixed_0.1": {
+        "mean_delta": 0.022154627964297242,
+        "win_rate": 0.6875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.3837947521541041,
+        "win_rate": 0.8125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.00046940913408333174,
+        "win_rate": 0.0,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.20721139409437886,
+        "win_rate": 0.8125,
+        "harm_gt_0p5_rate": 0.0
+      }
+    },
+    "lag_200ms": {
+      "fixed_0.1": {
+        "mean_delta": 0.021914142647765686,
+        "win_rate": 0.6875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.3723625632978992,
+        "win_rate": 0.8125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.0004279701424822341,
+        "win_rate": 0.03125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.1907597093321863,
+        "win_rate": 0.78125,
+        "harm_gt_0p5_rate": 0.0
+      }
+    },
+    "nominal": {
+      "fixed_0.1": {
+        "mean_delta": 0.0214559256057651,
+        "win_rate": 0.6875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.37605841956897607,
+        "win_rate": 0.8125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.0004657867727860254,
+        "win_rate": 0.03125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.19384798691256072,
+        "win_rate": 0.78125,
+        "harm_gt_0p5_rate": 0.0
+      }
+    },
+    "scale_1p2": {
+      "fixed_0.1": {
+        "mean_delta": 0.021455925605765175,
+        "win_rate": 0.6875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.3760584195689762,
+        "win_rate": 0.8125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.0004657867727859699,
+        "win_rate": 0.03125,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.19384798691256092,
+        "win_rate": 0.78125,
+        "harm_gt_0p5_rate": 0.0
+      }
+    },
+    "time_reverse": {
+      "fixed_0.1": {
+        "mean_delta": 0.02680904041059068,
+        "win_rate": 0.6875,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_1.0": {
+        "mean_delta": 0.5901998097935071,
+        "win_rate": 0.9375,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "fixed_0.0": {
+        "mean_delta": -0.0005206882537985569,
+        "win_rate": 0.0,
+        "harm_gt_0p5_rate": 0.0
+      },
+      "bounded_0.75": {
+        "mean_delta": 0.27016399112268136,
+        "win_rate": 0.875,
+        "harm_gt_0p5_rate": 0.0
+      }
+    }
+  }
+}

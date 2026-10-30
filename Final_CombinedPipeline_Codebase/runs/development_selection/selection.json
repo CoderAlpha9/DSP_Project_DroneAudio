@@ -1,0 +1,95 @@
+{
+  "winner": "audio_a0.9_b1.0",
+  "finalists": [
+    "audio_a0.9_b1.0",
+    "audio_a0.98_b1.5",
+    "audio_a0.95_b1.5"
+  ],
+  "config_sha256": "c401e345ffc63885a369b20a5b062497c2034cb988a5977283652fad49e6200c",
+  "freeze_path": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Final_CombinedPipeline_Codebase\\configs\\frozen.yaml",
+  "candidates": [
+    {
+      "name": "audio_a0.9_b1.0",
+      "development_objective": 4.90632090609341,
+      "validation_objective": 0.3788976430179012
+    },
+    {
+      "name": "audio_a0.95_b1.0",
+      "development_objective": 4.383655599278907,
+      "validation_objective": 0.10459957489170701
+    },
+    {
+      "name": "audio_a0.98_b1.0",
+      "development_objective": 4.216748906828977,
+      "validation_objective": 0.1162263099025469
+    },
+    {
+      "name": "audio_a0.95_b1.5",
+      "development_objective": 4.638219248004068,
+      "validation_objective": 0.22959204627757135
+    },
+    {
+      "name": "audio_a0.98_b1.5",
+      "development_objective": 4.67180012544015,
+      "validation_objective": 0.35898451331174286
+    },
+    {
+      "name": "fixed_rpm",
+      "development_objective": 4.638219248004068,
+      "validation_objective": 0.22959204627757135
+    },
+    {
+      "name": "bounded_rpm",
+      "development_objective": 4.638219248004068,
+      "validation_objective": 0.22959204627757135
+    },
+    {
+      "name": "ridge",
+      "development_objective": 4.638219248004068,
+      "validation_objective": 0.22959204627757135
+    }
+  ],
+  "input_hashes": {
+    "train_00_00_hover": "3e40cdde5a25ada3ad0c21b5095278e518e29404160955010eaf5a3b5e53ac26",
+    "train_00_01_hover": "224b838203ba7953668913e70ce0fc82858019bdcb135239e578de41d5568fe8",
+    "train_00_02_hover": "6da3a7c0ed4cc7af18aeef8498e574bc22d576ec42cfadf74cb42473de49072b",
+    "train_00_03_hover": "232bc554bb84af5c83008d2faab9e03e84944fa28186ea9293fa8104bfc6591f",
+    "train_01_00_recede_slow": "1a3e1bbf73befe6466dc7f5cfc4f1f34e7a88628b546729d59ed6202a0e45e5d",
+    "train_01_01_recede_slow": "f5bc9977e4ea7d719fa45796b21a725f79e9a5314180b4a0633952e8cb138249",
+    "train_01_02_recede_slow": "05c16fe71883684c6a1d5fe8a156bb3c8bd85bc641b15df438cf65313ecafa0b",
+    "train_01_03_recede_slow": "9499c4e35945fa3c36d7d907b022cb1cb7b114a73b7b778bddf5a63f0b86f8a2",
+    "train_04_00_out_and_back": "a118773b67e754f1b6078606eda8061e6553f9be3de424575a75fd0579e45133",
+    "train_04_01_out_and_back": "89bdcdf07cdb841bc42638f8df00d0b63860efa934c60991cabc4141748efede",
+    "train_04_02_out_and_back": "301d76ba573d05daddc351ea11c20fc397fd28f07309031e4a310bd76fdd19d6",
+    "train_04_03_out_and_back": "938f1192ff01239a41e4db0ecc5f12fc79fbec0aed4ec5b6fbce3332f31789d3",
+    "train_14_00_mixed_3d": "e525e82f297e43c17db3ce52f80cd92635e5578f6387d8bf95d5a1ce72a29feb",
+    "train_14_01_mixed_3d": "e3bb1698184ab39adff4ee1e9bd8cf34c7fc34ccf15c1cebe5970317de419cb8",
+    "train_14_02_mixed_3d": "9c34ff9df0cd2b533f0ac935afb0d319a5c2f5a5e819e41bf06cab46aeb0de4a",
+    "train_14_03_mixed_3d": "4dd61d95d304e8ef6d295d221ae7ab69a5da47c06cb1ee4e09503225f5d27e60",
+    "gazebo_20261028T062804Z_seed101__base": "0c31be916701c4d55aa9c95b119e23fc3014f45b6d6b27b0e50b92232049e2cc",
+    "gazebo_20261028T062913Z_seed202__base": "0ad32b213dadc7afd94f52b138c45b9972266160f93d317a5b2692e002fc0b9a",
+    "gazebo_20261028T062302Z_seed202__base": "5bbeb7f6504691977938f64d0b4f5df95adb6cf86fd45513519f322b359240f8",
+    "gazebo_20261028T063131Z_seed101__base": "87e03129584df47399d48e4937ecd327789f7ccc3e3516991390aa9269cc7bd6",
+    "gazebo_20261028T063240Z_seed202__base": "afa75b8a5381c0df3023ddc7455c35694e3471cc9ef9b5155389a62e257d0a63",
+    "gazebo_20261028T063450Z_seed101__base": "4bd68a86ac630b30880d6ed2da7d486db55b60e558fd5ac5316329fffa62137c",
+    "gazebo_20261028T063559Z_seed202__base": "2319d2131b0049a6ea632ed4d64821b7aaf6ae84a2060650bc29ae7ddecf578f",
+    "gazebo_20261028T063811Z_seed101__base": "6844cffd0df454f00a30b64903c33e8226b58dca5b804bb9560f859a8c0e3d86",
+    "gazebo_20261028T063920Z_seed202__base": "fc2f3612894dcfee4dde8fcaffcce8a033955aae271d19f1ecf6212fce03225e",
+    "gazebo_20261028T064134Z_seed101__base": "bb07ae5c8825d675709ff33725c1cae9900991a7b4e69ca7438443b682f99f17",
+    "gazebo_20261028T064243Z_seed202__base": "2011a7c47fe26d12d5738d4799c08ae08a47bcb1f57e9bf898ddb0182b1533f5"
+  },
+  "reference_access": "development/validation only",
+  "environment": {
+    "utc": "2026-10-30T15:44:10.738136+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "unavailable"
+    }
+  }
+}

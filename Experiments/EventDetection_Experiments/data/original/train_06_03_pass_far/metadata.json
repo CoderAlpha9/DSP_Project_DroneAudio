@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_06_03_pass_far",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "pass_far",
+  "seed": 20261650,
+  "source_offset_samples": 24106,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "unavailable",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 12.49520975371179,
+  "distance_max_m": 20.58295800338045,
+  "speed_max_m_s": 4.318047802067494,
+  "acceleration_max_m_s2": 0.6577143654301031,
+  "active_snr_median_db": 2.903754228164867,
+  "active_fraction_below_3db": 0.5138539042821159,
+  "relative_path": "train/train_06_03_pass_far"
+}

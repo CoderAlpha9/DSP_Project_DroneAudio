@@ -1,0 +1,10 @@
+{
+  "scenario_id": "train_04_01_out_and_back",
+  "source_offset_samples": 70918,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Archived evidence audit, not an original raw-data rerun",
+  "checks": {
+    "original_1216_rows": true,
+    "original_16_methods": true,
+    "original_76_mixtures": true,
+    "original_19_captures": true,
+    "no_original_duplicates": true,
+    "development_640_total": true,
+    "primary_6_captures": true,
+    "paper_original_rrst": true,
+    "paper_original_static": true,
+    "fresh_4896_rows": true,
+    "fresh_1344_waveforms": true,
+    "fresh_48_cases": true,
+    "fresh_17_variants": true,
+    "fresh_6_conditions": true,
+    "fresh_test_ids_16_47": true,
+    "ridge_960_waveforms": true,
+    "paper_49pct_harm": true,
+    "fresh_constant_scale_negative_control": true,
+    "original_metrics_finite": true,
+    "fresh_metrics_finite": true
+  },
+  "headline_values": {
+    "rrst_sisdr": 8.30888560895196,
+    "expanded_static_sisdr": 7.759714147531735,
+    "fresh_pure_rpm_harm_rate": 0.4895833333333333
+  }
+}

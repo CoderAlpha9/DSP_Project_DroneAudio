@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_10_03_stop_and_go",
+  "split": "train",
+  "source_group": "c414202e8f9c",
+  "profile": "stop_and_go",
+  "seed": 20262050,
+  "source_offset_samples": 236398,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "spikes",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.357490498881429,
+  "distance_max_m": 20.9525215371792,
+  "speed_max_m_s": 5.218660114159538,
+  "acceleration_max_m_s2": 6.265915665731829,
+  "active_snr_median_db": -6.11231523399998,
+  "active_fraction_below_3db": 0.9522546419098143,
+  "relative_path": "train/train_10_03_stop_and_go"
+}

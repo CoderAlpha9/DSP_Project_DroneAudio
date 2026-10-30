@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_07_00_orbit",
+  "split": "train",
+  "source_group": "c414202e8f9c",
+  "profile": "orbit",
+  "seed": 20261729,
+  "source_offset_samples": 102405,
+  "initial_nominal_active_snr_db": 15,
+  "sensor_condition": "dropout",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 9.39224747641677,
+  "distance_max_m": 9.392247476416774,
+  "speed_max_m_s": 4.582373117395799,
+  "acceleration_max_m_s2": 2.4703041155245384,
+  "active_snr_median_db": 13.006092891789711,
+  "active_fraction_below_3db": 0.14367816091954022,
+  "relative_path": "train/train_07_00_orbit"
+}

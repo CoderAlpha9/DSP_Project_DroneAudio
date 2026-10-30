@@ -1,0 +1,12 @@
+{
+  "scenario": "S1",
+  "flight_success_verified": false,
+  "failure": "TimeoutError('Landing/disarm confirmation unavailable')",
+  "mission_status": "FAIL",
+  "controller": "ROS2_Humble_px4_msgs_release_1.16",
+  "events": 8,
+  "vehicle_samples": 4874,
+  "gz_imu_samples": 25258,
+  "px4_imu_samples": 24597,
+  "command_samples": 0
+}

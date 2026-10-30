@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_03_00_approach",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "approach",
+  "seed": 20261329,
+  "source_offset_samples": 108930,
+  "initial_nominal_active_snr_db": 15,
+  "sensor_condition": "spikes",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.769948838010894,
+  "distance_max_m": 32.519253648932555,
+  "speed_max_m_s": 3.821133779702765,
+  "acceleration_max_m_s2": 0.5820256739362422,
+  "active_snr_median_db": 15.942502090122717,
+  "active_fraction_below_3db": 0.01358695652173913,
+  "relative_path": "train/train_03_00_approach"
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_14_00_mixed_3d",
+  "split": "train",
+  "source_group": "64de953209db",
+  "profile": "mixed_3d",
+  "seed": 20262429,
+  "source_offset_samples": 38821,
+  "initial_nominal_active_snr_db": 9,
+  "sensor_condition": "unavailable",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.830951894845301,
+  "distance_max_m": 26.427745424019687,
+  "speed_max_m_s": 3.4249281205076665,
+  "acceleration_max_m_s2": 1.339924560134252,
+  "active_snr_median_db": -3.352653892768102,
+  "active_fraction_below_3db": 0.839041095890411,
+  "relative_path": "train/train_14_00_mixed_3d"
+}

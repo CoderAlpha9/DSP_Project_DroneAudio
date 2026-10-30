@@ -1,0 +1,18 @@
+[
+  {
+    "event_id": 1,
+    "decision_available_s": 1.16,
+    "start_s": 1.1500000000000001,
+    "end_s": 2.59,
+    "clip_start_sample": 16800,
+    "clip_end_sample": 43040
+  },
+  {
+    "event_id": 2,
+    "decision_available_s": 6.47,
+    "start_s": 6.46,
+    "end_s": 7.41,
+    "clip_start_sample": 101760,
+    "clip_end_sample": 120160
+  }
+]

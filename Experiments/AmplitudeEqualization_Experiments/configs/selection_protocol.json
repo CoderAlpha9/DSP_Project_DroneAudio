@@ -1,0 +1,399 @@
+{
+  "calibration_scenarios": 40,
+  "validation_scenarios": 20,
+  "calibration_groups": [
+    "52f12a62d905",
+    "64de953209db"
+  ],
+  "validation_group": "c414202e8f9c",
+  "candidate_count": 54,
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 1,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 2,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 3,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 4,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 5,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 6,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 7,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 8,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 9,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 10,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 11,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 12,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 13,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 14,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 15,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 16,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 17,
+      "max_gain_db": 12.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 18,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 19,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 20,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 21,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 22,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 23,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 24,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 25,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 26,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 27,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 28,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 29,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 30,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 31,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 32,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 33,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 34,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 35,
+      "max_gain_db": 18.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 36,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 37,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 38,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 39,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 40,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 41,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.04,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 42,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 43,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 44,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 45,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 46,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 47,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.12,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 48,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 49,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 50,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 0.8,
+      "fallback": "energy"
+    },
+    {
+      "candidate_id": 51,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "hold"
+    },
+    {
+      "candidate_id": 52,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "unity"
+    },
+    {
+      "candidate_id": 53,
+      "max_gain_db": 24.0,
+      "smooth_s": 0.3,
+      "geometry_weight": 1.0,
+      "fallback": "energy"
+    }
+  ],
+  "shortlisted_ids": [
+    21,
+    39,
+    27
+  ],
+  "selected_id": 21,
+  "criterion": "Mean active-level MAE + 0.25 envelope-shape error + 0.1 gain-step p95, development only.",
+  "performance_reporting": "Test-set performance metrics only; development ranking values are not exported.",
+  "caution": "Existing held-out recording reused from the earlier noisy study; not a newly collected blind test."
+}

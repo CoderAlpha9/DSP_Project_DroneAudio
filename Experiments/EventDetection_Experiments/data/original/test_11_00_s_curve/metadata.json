@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_11_00_s_curve",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "s_curve",
+  "seed": 20362129,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": 15,
+  "sensor_condition": "drift",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.85998249285827,
+  "distance_max_m": 22.811697695139145,
+  "speed_max_m_s": 3.89806214088706,
+  "acceleration_max_m_s2": 2.7086557467901384,
+  "active_snr_median_db": -3.3261043513251076,
+  "active_fraction_below_3db": 0.7151767151767152,
+  "relative_path": "test/test_11_00_s_curve"
+}

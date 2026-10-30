@@ -1,0 +1,12 @@
+{
+  "scenario": "S1",
+  "flight_success_verified": false,
+  "failure": "TimeoutError('PX4 EKF + clock readiness')",
+  "mission_status": "FAIL",
+  "controller": "ROS2_Humble_px4_msgs_release_1.16",
+  "events": 0,
+  "vehicle_samples": 0,
+  "gz_imu_samples": 7012,
+  "px4_imu_samples": 6281,
+  "command_samples": 0
+}

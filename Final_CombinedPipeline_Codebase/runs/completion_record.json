@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "environment": {
+    "utc": "2026-10-30T16:18:07.404924+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  },
+  "config_sha256": "c401e345ffc63885a369b20a5b062497c2034cb988a5977283652fad49e6200c",
+  "completed": {
+    "automated_tests": 41,
+    "development_configuration_evaluations": 243,
+    "matched_test_conditions": 47,
+    "matched_metric_rows": 376,
+    "synthetic_event_test_cases": 60,
+    "sensor_intervention_runs": 84,
+    "evaluation_wavs_verified": 214,
+    "scientific_figures": 8,
+    "single_file_with_clips": "runs/single_associated",
+    "external_working_directory_inference": "runs/outside_cwd_smoke",
+    "batch2_cli": "runs/batch_smoke",
+    "explicit_fixed_reference": "runs/fixed_reference_smoke",
+    "delivered_code_replay": "runs/delivery_replay.json"
+  },
+  "skipped": [
+    {
+      "stage": "exact original archival replay",
+      "reason": "Original exact ZIP bytes and Linux DeepFilterNet executable absent; extracted-data inference and new evaluation completed."
+    },
+    {
+      "stage": "PESQ and neural comparator",
+      "reason": "Not installed/executed; optional comparators, not required inference dependencies."
+    },
+    {
+      "stage": "Batch2 pose restoration and event accuracy",
+      "reason": "No declared observed source geometry or compatible event labels."
+    }
+  ],
+  "failed_unresolved": [],
+  "resolved_issues": [
+    {
+      "issue": "Initial artifact verifier could not parse PowerShell UTF-16 test console output",
+      "resolution": "BOM-aware decoding; successful delivery audit saved."
+    },
+    {
+      "issue": "Validity coverage mixed structural RPM acceptance with model/template eligibility",
+      "resolution": "Separated coverage columns, recomputed summaries without changing decisions/audio."
+    },
+    {
+      "issue": "Silent first case hid later available quality fields during CSV reaggregation",
+      "resolution": "Union of numeric metric columns across cases, regression test passed."
+    },
+    {
+      "issue": "Full recording reset retained previous sensor stream",
+      "resolution": "Reset clears sensors unless explicitly supplied; constructor and representative inference replay unchanged."
+    }
+  ],
+  "inference_randomness": "none; source dataset seeds retained in read-only Batch1 manifest and Batch2 capture manifests; no synthetic regeneration or learned retuning on test",
+  "supplied_source_artifacts_unchanged": true,
+  "documentation": [
+    "README.md",
+    "docs/SOURCE_MAP.md",
+    "docs/ALGORITHMS.md",
+    "docs/DATA_SCHEMA.md",
+    "docs/VALIDATION_RESULTS.md"
+  ]
+}

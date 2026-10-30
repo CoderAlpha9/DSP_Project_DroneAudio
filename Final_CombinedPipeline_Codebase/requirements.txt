@@ -1,0 +1,7 @@
+# Executed Windows/Python 3.13.1 environment; portable bounds are in pyproject.toml.
+numpy==2.2.1
+scipy==1.15.0
+PyYAML==6.0.3
+matplotlib==3.10.0
+pystoi==0.4.1
+pytest==8.4.1

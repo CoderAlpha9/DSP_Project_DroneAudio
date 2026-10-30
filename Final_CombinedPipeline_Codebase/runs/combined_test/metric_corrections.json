@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "changed_fields": [
+    "rpm_valid_coverage",
+    "rpm_model_eligible_coverage"
+  ],
+  "reason": "Separate structural RPM validity from model/template eligibility; retain aggregate quality columns when the first case has a silent reference. No audio, decisions or per-case quality metrics changed.",
+  "derivation": "Structural monitor is identical across modes; use matched audio-only/unprocessed row. Probe complete mode is already audio-only.",
+  "rows": 376,
+  "environment": {
+    "utc": "2026-10-30T16:14:23.779862+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  }
+}

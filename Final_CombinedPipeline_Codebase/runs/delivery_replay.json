@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "sample_id": "test_01_00_recede_slow",
+      "chunk_size": 173,
+      "maximum_saved_float32_delta": 1.4883197008153104e-08,
+      "passed": true
+    },
+    {
+      "sample_id": "gazebo_20261028T064718Z_seed303__base",
+      "chunk_size": 173,
+      "maximum_saved_float32_delta": 3.721617680696454e-09,
+      "passed": true
+    }
+  ],
+  "frozen_config_unchanged": true
+}

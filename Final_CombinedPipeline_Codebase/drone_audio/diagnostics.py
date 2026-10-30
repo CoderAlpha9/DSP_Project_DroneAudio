@@ -77,7 +77,6 @@ def make_plots(run):
         ax.annotate('',xy=(x2,y2),xytext=(x1,y1),arrowprops=dict(arrowstyle='->',color='#3b5574'))
     fig.savefig(out/'pipeline.png',bbox_inches='tight');plt.close(fig)
     # Actual recursive PSD smoothing pole: update clock is hop/fs, not fs.
-    config=json.loads(json.dumps({}))
     from .config import load_config
     c=load_config(run/'frozen.yaml') if (run/'frozen.yaml').exists() else load_config()
     alpha=c.enhancement.noise_alpha;update_rate=16000/c.enhancement.hop
@@ -102,6 +101,13 @@ def make_plots(run):
             group=[r for r in rows if r['batch']==batch];names=[r['method'] for r in group]
             ax.barh(names,[float(r['pre_si_sdr_db']) for r in group]);ax.set_title(batch+' macro parent means');ax.set_xlabel('Pre-amplitude SI-SDR (dB)')
         fig.savefig(out/'method_comparison.png');plt.close(fig)
+        fig,axes=plt.subplots(2,2,figsize=(11,7),layout='constrained')
+        for j,batch in enumerate(['batch1','batch2']):
+            group=[r for r in rows if r['batch']==batch]
+            names=[r['method'] for r in group]
+            axes[0,j].barh(names,[float(r['post_active_level_mae_db']) for r in group]);axes[0,j].set_title(batch+' level fidelity');axes[0,j].set_xlabel('Post-amplitude active level MAE (dB)')
+            axes[1,j].barh(names,[float(r['pre_stoi']) for r in group]);axes[1,j].set_title(batch+' intelligibility');axes[1,j].set_xlabel('Pre-amplitude STOI')
+        fig.savefig(out/'level_and_intelligibility.png');plt.close(fig)
     if (run/'paired_vs_audio.csv').exists():
         with (run/'paired_vs_audio.csv').open() as fp:paired=list(csv.DictReader(fp))
         fig,ax=plt.subplots(figsize=(10,4),layout='constrained')
@@ -115,11 +121,17 @@ def make_plots(run):
         mic=record['input_record']['sample']['inference']['microphone'];raw,_=read_audio(mic)
         with (p/'enhancement.csv').open() as f:trace=list(csv.DictReader(f))
         with (p/'amplitude.csv').open() as f:amp=list(csv.DictReader(f))
-        fig,axes=plt.subplots(4,1,figsize=(11,9),layout='constrained',sharex=True)
+        with (p/'detector.csv').open() as f:detector=list(csv.DictReader(f))
+        fig,axes=plt.subplots(5,1,figsize=(11,10),layout='constrained',sharex=True)
         t=np.arange(len(raw))/16000;axes[0].plot(t,raw,label='microphone',alpha=.5,lw=.4);axes[0].plot(t,final,label='final',alpha=.7,lw=.4);axes[0].legend();axes[0].set_ylabel('Amplitude')
         for ax,x,label in [(axes[1],raw,'Microphone'),(axes[2],enhanced,'Pre-amplitude enhanced')]:
             f,tt,Z=signal.stft(x,16000,nperseg=512,noverlap=384);ax.pcolormesh(tt,f,20*np.log10(np.maximum(abs(Z),1e-7)),vmin=-80,vmax=-20,shading='auto',rasterized=True);ax.set_ylim(0,4500);ax.set_ylabel(label+'\nHz')
         axes[3].plot([float(r['time_s']) for r in amp],[float(r['applied_gain_db']) for r in amp],label='applied gain dB')
-        axes[3].plot([float(r['available_time_s']) for r in trace],[float(r['fusion_weight']) for r in trace],label='RPM weight');axes[3].legend();axes[3].set_xlabel('Audio time (s)')
+        axes[3].plot([float(r['available_time_s']) for r in trace],[float(r['fusion_weight']) for r in trace],label='RPM weight');axes[3].legend();axes[3].set_ylabel('Control')
+        times=[float(r['available_time_s']) for r in detector]
+        axes[4].step(times,[float(r['activity_active']) for r in detector],label='activity',where='post',alpha=.7)
+        axes[4].step(times,[float(r['event_active']) for r in detector],label='grouped event',where='post',alpha=.7)
+        axes[4].step(times,[float(r['speech_active']) for r in detector],label='speech',where='post',alpha=.7)
+        axes[4].set_ylim(-.1,1.3);axes[4].legend(ncol=3);axes[4].set_xlabel('Audio time (s)');axes[4].set_ylabel('Decision')
         fig.suptitle(p.parent.name+' — aligned signals and controls');fig.savefig(out/'representative_panels.png');plt.close(fig)
     json_out(out/'figure_manifest.json',{'generated':[p.name for p in sorted(out.glob('*.png'))],'source_run':str(run),'no_adaptive_LTI_claim':True})

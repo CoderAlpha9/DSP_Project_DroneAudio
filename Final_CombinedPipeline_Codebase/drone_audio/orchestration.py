@@ -13,11 +13,11 @@ class DronePipeline:
     def __init__(self, config=None, *, telemetry=None):
         self.config=deepcopy(config or PipelineConfig()).validate()
         self.telemetry=telemetry or ObservedTelemetry()
-        self.reset()
+        self.reset(telemetry=self.telemetry)
 
     def reset(self, *, telemetry=None):
         """Full reset between unrelated recordings; unlike new_source_session."""
-        if telemetry is not None:self.telemetry=telemetry
+        self.telemetry=telemetry if telemetry is not None else ObservedTelemetry()
         self.detector=Detector() if self.config.detector_enabled else None
         self.enhancer=SpectralEnhancer(self.config,self.telemetry)
         self.amplitude=AmplitudeRestorer(self.config)

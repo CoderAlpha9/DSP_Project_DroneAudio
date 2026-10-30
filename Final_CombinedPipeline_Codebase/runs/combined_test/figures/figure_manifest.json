@@ -1,0 +1,13 @@
+{
+  "generated": [
+    "detector_bandpass_response.png",
+    "level_and_intelligibility.png",
+    "method_comparison.png",
+    "paired_comparison.png",
+    "pipeline.png",
+    "psd_smoother_response.png",
+    "representative_panels.png"
+  ],
+  "source_run": "D:\\Users\\Jaiwanth Karthi\\OtherDocuments\\Github\\DSP_Project_DroneAudio\\Final_CombinedPipeline_Codebase\\runs\\combined_test",
+  "no_adaptive_LTI_claim": true
+}

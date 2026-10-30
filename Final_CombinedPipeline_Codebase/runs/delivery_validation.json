@@ -1,0 +1,66 @@
+{
+  "combined_test": {
+    "status": "completed",
+    "rows": 376
+  },
+  "event_probes_test": {
+    "status": "completed",
+    "rows": 60
+  },
+  "sensor_degradation": {
+    "status": "completed",
+    "rows": 84
+  },
+  "tests_passed": 41,
+  "wav_files_verified": 214,
+  "figure_count": 8,
+  "delivered_code_replay": [
+    {
+      "sample_id": "test_01_00_recede_slow",
+      "chunk_size": 173,
+      "maximum_saved_float32_delta": 1.4883197008153104e-08,
+      "passed": true
+    },
+    {
+      "sample_id": "gazebo_20261028T064718Z_seed303__base",
+      "chunk_size": 173,
+      "maximum_saved_float32_delta": 3.721617680696454e-09,
+      "passed": true
+    }
+  ],
+  "source_artifact_hashes_unchanged": true,
+  "default_and_frozen_identical": true,
+  "config_sha256": "c401e345ffc63885a369b20a5b062497c2034cb988a5977283652fad49e6200c",
+  "environment": {
+    "utc": "2026-10-30T16:12:49.272919+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  },
+  "status": "completed",
+  "reporting_verification": {
+    "status": "completed",
+    "silent_first_case_summary_regression": "passed",
+    "audio_verification": "prior successful 214-file audit retained; no audio files changed",
+    "environment": {
+      "utc": "2026-10-30T16:14:37.258982+00:00",
+      "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "versions": {
+        "numpy": "2.2.1",
+        "scipy": "1.15.0",
+        "PyYAML": "6.0.3",
+        "matplotlib": "3.10.0",
+        "pytest": "8.4.1",
+        "pystoi": "0.4.1"
+      }
+    }
+  }
+}

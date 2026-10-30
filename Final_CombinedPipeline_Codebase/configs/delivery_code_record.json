@@ -1,0 +1,45 @@
+{
+  "frozen_configuration_unchanged": true,
+  "source_hashes": {
+    "drone_audio\\__init__.py": "c24989a2474184849590920ce841c0d3f78c6d3dd88dec83680ad1a885be421f",
+    "drone_audio\\__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "drone_audio\\amplitude.py": "6846d24c9b1371101635b0ed7a1be24074fa4a46298a14892a48a72c3a6c4ddb",
+    "drone_audio\\assets\\amplitude_selected.json": "26dfc53236cd97bbc4b52a5ccdff3149b00a89ff668542b65424a586c706c034",
+    "drone_audio\\assets\\detector_selected.json": "207eb64c4044a3739a99543deecb97ab22531cf0f586dc7fad75ad7f9bc64913",
+    "drone_audio\\assets\\reliability_selected.json": "05cd118e4607d884faeec92501680830a150815d1e4ce4f82dfd1fb3d129fa45",
+    "drone_audio\\assets\\ridge_selected.json": "822cffc21ddb4f6a62cda5c18b489905703c206ba99bdd360a7c1c108b4414ec",
+    "drone_audio\\assets\\source_intervals.json": "77f2f106f21f9787cf4dd848c83df5c1936a7105e9eabe90ec38431114a257b2",
+    "drone_audio\\audio.py": "024aaef96e61aa95a6f32c8399e15d6ce4723908cde3e4ee36e9059133d6397a",
+    "drone_audio\\cli.py": "44b70aa7d0a784066b4e262a52e6f55aee1812b227b90011b0f04b0d1dc863f7",
+    "drone_audio\\config.py": "a1cf46e714c70c8de53f112ac4a2c245405490679cecb0abc9e5ef9639436cb1",
+    "drone_audio\\datasets.py": "2a7eb7c8cb904bb99d70966255121ba07e76693fa7cb33ca39b44e102d3fc850",
+    "drone_audio\\detection.py": "fcdc85b71c24954ef4b0d2087b44073f3f769209af6871062494f37da9ec2e4b",
+    "drone_audio\\diagnostics.py": "b6e3d57360db9ec733128d1547015199f9c1b8cdbc138977b9ebfe62ebc6a7e4",
+    "drone_audio\\enhancement.py": "d88ede122097d14de81a6b461a330c3aa7e06f5cc19e624ed20c5afc72b5ad65",
+    "drone_audio\\evaluation.py": "9b13af45038ca065cea467c228d1f5496fbfe0b2a7d07dbcc5647c1e48afa160",
+    "drone_audio\\oracle.py": "bd9c558fa80b87e3d8f1b6570306621ad51bf2ec080fe2164352d18feeab1fbb",
+    "drone_audio\\orchestration.py": "1d66288538cf583727f261904373f7fe16c80db53888563c71fb6a4ee09dd651",
+    "drone_audio\\outputs.py": "945b786a3ba1d2bff0f82515a9de3eb0669a6cd7d9be1323a9aaf9d10bf563f8",
+    "drone_audio\\telemetry.py": "91b0f9843f985a74599f012b30bce519c2e07b55c3fba9d2293217ebc9be6935"
+  },
+  "changes_since_pretest_code_record": [
+    "drone_audio\\config.py",
+    "drone_audio\\diagnostics.py",
+    "drone_audio\\evaluation.py",
+    "drone_audio\\orchestration.py"
+  ],
+  "explanation": "Python dataclass defaults aligned to the already frozen explicit settings; evaluation coverage labels separated; full reset now drops prior recording sensor streams (constructor explicitly preserves supplied sensors). New-recording inference is unchanged and representative delivery replay is checked. No test-driven DSP parameter changes. Diagnostic/reporting additions are not enhancement changes.",
+  "environment": {
+    "utc": "2026-10-30T16:14:23.978577+00:00",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.2.1",
+      "scipy": "1.15.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.0",
+      "pytest": "8.4.1",
+      "pystoi": "0.4.1"
+    }
+  }
+}

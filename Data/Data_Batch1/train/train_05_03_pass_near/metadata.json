@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_05_03_pass_near",
+  "split": "train",
+  "source_group": "64de953209db",
+  "profile": "pass_near",
+  "seed": 20261550,
+  "source_offset_samples": 119516,
+  "initial_nominal_active_snr_db": -3,
+  "sensor_condition": "spikes",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.489012264592562,
+  "distance_max_m": 18.30361041876261,
+  "speed_max_m_s": 4.684566162975108,
+  "acceleration_max_m_s2": 0.7135416172873926,
+  "active_snr_median_db": -0.8571263121163022,
+  "active_fraction_below_3db": 0.6904761904761905,
+  "relative_path": "train/train_05_03_pass_near"
+}

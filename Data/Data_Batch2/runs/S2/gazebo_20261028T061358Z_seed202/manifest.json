@@ -1,0 +1,343 @@
+{
+  "schema_version": "ros2_humble_px4_gazebo_dataset_v2",
+  "provenance_class": "px4_gazebo_hybrid",
+  "scenario": "S2",
+  "seed": 202,
+  "status": "sim_flight_verified_audio_completed",
+  "flight_success_verified": true,
+  "config_hash": "a7fa8f51e85832be26781b19adbc0e47d16f29a9fd5aaf05db6e83be2030b380",
+  "config": {
+    "stack": {
+      "ubuntu": "22.04",
+      "ros_distro": "humble",
+      "gazebo_family": "harmonic",
+      "px4_git_ref": "v1.16.0",
+      "px4_msgs_branch": "release/1.16",
+      "model_name": "x500_dsp",
+      "original_model_name": "x500",
+      "airframe_id": 4001,
+      "world": "default",
+      "rotor_joint_to_shaft_factor": 10.0,
+      "csv_rotor_rate_hz": 100
+    },
+    "experiment": {
+      "sample_rate": 16000,
+      "seconds": 15.0,
+      "telemetry_hz": 50,
+      "target_snr_db": -5.0,
+      "generate_snr_sweep": true,
+      "snr_sweep_db": [
+        -10.0,
+        -5.0,
+        0.0,
+        5.0
+      ],
+      "seed": 20261028,
+      "scenario": "S1",
+      "clean_wav": null,
+      "speech_license": null,
+      "speech_speaker_id": null,
+      "speech_split": "unspecified",
+      "active_interval_seconds": [
+        2.0,
+        14.0
+      ],
+      "silence_start_seconds": 1.0,
+      "acoustic_orders": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "blade_count": 2,
+      "mic_xyz_m": [
+        0.06,
+        0.0,
+        -0.11
+      ],
+      "rotor_xyz_m": [
+        [
+          0.24,
+          0.24,
+          0
+        ],
+        [
+          -0.24,
+          0.24,
+          0
+        ],
+        [
+          -0.24,
+          -0.24,
+          0
+        ],
+        [
+          0.24,
+          -0.24,
+          0
+        ]
+      ],
+      "shaft_directions": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "reference_rpm": 6500,
+      "order_power": 1.6,
+      "harmonic_rolloff": 1.4,
+      "broadband_fraction": 0.75,
+      "vibration_fraction": 0.25,
+      "electronics_fraction": 0.025,
+      "adc_clip": false,
+      "max_telemetry_gap_s": 0.12,
+      "capture_start_offset_s": 0.4,
+      "imu_max_gap_s": 0.15,
+      "static_calibration": "heuristic_not_measured"
+    },
+    "mission": {
+      "hover_alt_m": 3.0,
+      "warmup_s": 4.0,
+      "segment_s": 17.0,
+      "waypoint_tol_m": 0.8,
+      "landing_timeout_s": 40.0,
+      "max_xy_m": 2.0,
+      "yaw_rad": 0.65
+    }
+  },
+  "sim_capture_sha256": "ef16a97021e3c75b92d482c7a75bc6302471ef0742701703dd1a06ef974f33ed",
+  "rpm_source": "gazebo_joint_derived_validated",
+  "rotor_unit": "RPM from joint rad/s \u00d7 validated slowdown 10.0",
+  "rotor_order": [
+    "rotor_0_joint",
+    "rotor_1_joint",
+    "rotor_2_joint",
+    "rotor_3_joint"
+  ],
+  "motor_mapping_audit": {
+    "original_sha256": "cb76a4afd439f253a8c516b1fcd3528f80347619cfa46bebb620557054fbf125",
+    "generated_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+    "rpm_source": "gazebo_visual_joint_derived_requires_source_validation",
+    "mapping": [
+      {
+        "motor": 0,
+        "joint": "rotor_0_joint",
+        "link": "rotor_0",
+        "direction": "ccw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_0_joint",
+          "linkName": "rotor_0",
+          "turningDirection": "ccw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "0",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 1,
+        "joint": "rotor_1_joint",
+        "link": "rotor_1",
+        "direction": "ccw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_1_joint",
+          "linkName": "rotor_1",
+          "turningDirection": "ccw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "1",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 2,
+        "joint": "rotor_2_joint",
+        "link": "rotor_2",
+        "direction": "cw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_2_joint",
+          "linkName": "rotor_2",
+          "turningDirection": "cw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "2",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 3,
+        "joint": "rotor_3_joint",
+        "link": "rotor_3",
+        "direction": "cw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_3_joint",
+          "linkName": "rotor_3",
+          "turningDirection": "cw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "3",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      }
+    ],
+    "audited_motor_configuration_original_unchanged": true,
+    "instructions": "Verify locally installed gz-sim8 MulticopterMotorModel uses visual joint speed = modeled speed / rotorVelocitySlowdownSim before enabling RPM conversion."
+  },
+  "shaft_directions": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "audio_t0_sim_ns": 24508000000,
+  "sample_rate_hz": 16000,
+  "frames": 240000,
+  "duration_seconds": 15.0,
+  "seeds": {
+    "acoustics": 202,
+    "speech": 345
+  },
+  "speech_provenance": "synthetic_voice_like_SMOKE_NOT_SPEECH",
+  "speech_selection": {
+    "provenance": "synthetic_voice_like_SMOKE_NOT_SPEECH",
+    "selected_file": null,
+    "selected_start_s": null,
+    "original_sample_rate_hz": null
+  },
+  "speech_file": null,
+  "speech_license": null,
+  "speech_speaker_id": null,
+  "speech_split": "unspecified",
+  "speech_sha256": null,
+  "license": "not_applicable_smoke",
+  "snr": {
+    "target_snr_db": -5.0,
+    "realized_snr_db": -5.000000000000001,
+    "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+    "speech_active_samples": 115178,
+    "noise_gain": 0.023247987641921767,
+    "mic_clipped_samples": 0,
+    "adc_nonlinear": false
+  },
+  "paired_snr_sweep": {
+    "m10p0dB": {
+      "snr": {
+        "target_snr_db": -10.0,
+        "realized_snr_db": -10.0,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 115178,
+        "noise_gain": 0.041341417748468806,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/m10p0dB"
+    },
+    "p0p0dB": {
+      "snr": {
+        "target_snr_db": 0.0,
+        "realized_snr_db": -9.643274665532873e-16,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 115178,
+        "noise_gain": 0.013073304178567145,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/p0p0dB"
+    },
+    "p5p0dB": {
+      "snr": {
+        "target_snr_db": 5.0,
+        "realized_snr_db": 4.999999999999999,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 115178,
+        "noise_gain": 0.007351659196391976,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/p5p0dB"
+    }
+  },
+  "fault": {
+    "acoustic_variant": "nominal",
+    "simulated_fault_onset_s": null,
+    "fault_provenance": null
+  },
+  "sensor_corruption": null,
+  "acoustics_calibration": "heuristic_not_field_calibrated",
+  "generated_microphone_pcm": true,
+  "gazebo_logical_audio_sensor_used": false,
+  "speech_valid_for_metrics": false,
+  "rpm_gap_max_observed_s": 0.012000000000000455,
+  "imu": "gazebo_imu_ros_bridge",
+  "imu_noise_stem_is_latent_mechanical_synthetic_not_gazebo_imu": true,
+  "sdf_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+  "gazebo_version": "8.15.0",
+  "px4_version": "d28a64240f7b7570d65776b9b6397eddec0dd9ba",
+  "px4_msgs_branch": "release/1.16",
+  "model_overlay_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+  "flight_evidence": {
+    "scenario": "S2",
+    "flight_success_verified": true,
+    "failure": null,
+    "mission_status": "PASS",
+    "controller": "ROS2_Humble_px4_msgs_release_1.16",
+    "events": 10,
+    "vehicle_samples": 1914,
+    "gz_imu_samples": 10569,
+    "px4_imu_samples": 9840,
+    "command_samples": 0
+  },
+  "experiment_start_offset_s": 0.4,
+  "fault_type": null,
+  "px4_world": "default",
+  "run_data_sha256": {
+    "clean_speech": "78ed838665a510481e0e562bc96bfbb4c12b83c358fd567a07e92f451c7771f3",
+    "rotor_tonal": "d4b39a1d2e5c6318719dc888938bc25517e36b408f17bd43b968696f1e6b66bd",
+    "rotor_broadband": "ac59a92c83ba268393aefed74a6d0a800bd26e58fa602963d5f311e364ea8155",
+    "mount_vibration": "a0fe84595b2e1648f9d62677b28893f85f324101f47997cb7928db65f5bb316f",
+    "other_noise": "82e0dc42433ee727fa5b2278d6b564ea667bfa419519ca7fee5cda93c8263c0e",
+    "drone_noise": "b9523243183d3d358c5765e6136651383b897ff321ec2d4fd5efe79b028e1a53",
+    "mic_noisy": "d4f9a43cfb41ffc07b8d6c6be9b3facfca8990fead4d5f240670c5326f76a7ea"
+  },
+  "filter_results_not_generated": true
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_09_00_spiral_in",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "spiral_in",
+  "seed": 20261929,
+  "source_offset_samples": 109763,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "unavailable",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.652797194816116,
+  "distance_max_m": 22.181950741463087,
+  "speed_max_m_s": 5.7648652656204415,
+  "acceleration_max_m_s2": 2.481868983694351,
+  "active_snr_median_db": 3.4809347973718867,
+  "active_fraction_below_3db": 0.4767123287671233,
+  "relative_path": "train/train_09_00_spiral_in"
+}

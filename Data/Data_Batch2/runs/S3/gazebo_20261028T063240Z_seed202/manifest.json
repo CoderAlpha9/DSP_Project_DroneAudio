@@ -1,0 +1,344 @@
+{
+  "schema_version": "ros2_humble_px4_gazebo_dataset_v2",
+  "provenance_class": "px4_gazebo_hybrid",
+  "scenario": "S3",
+  "seed": 202,
+  "status": "sim_flight_verified_audio_completed",
+  "flight_success_verified": true,
+  "config_hash": "31987473fb301e8ea0baf687a2b288acd792c736c83b38dc650536e8a443b8d0",
+  "config": {
+    "stack": {
+      "ubuntu": "22.04",
+      "ros_distro": "humble",
+      "gazebo_family": "harmonic",
+      "px4_git_ref": "v1.16.0",
+      "px4_msgs_branch": "release/1.16",
+      "model_name": "x500_dsp",
+      "original_model_name": "x500",
+      "airframe_id": 4001,
+      "world": "default",
+      "rotor_joint_to_shaft_factor": 10.0,
+      "csv_rotor_rate_hz": 100
+    },
+    "experiment": {
+      "sample_rate": 16000,
+      "seconds": 15.0,
+      "telemetry_hz": 50,
+      "target_snr_db": -5.0,
+      "generate_snr_sweep": true,
+      "snr_sweep_db": [
+        -10.0,
+        -5.0,
+        0.0,
+        5.0
+      ],
+      "seed": 20261028,
+      "scenario": "S1",
+      "clean_wav": "/home/sanat/Downloads/PX4_Gazebo_ROS2_Humble_DSP_Dataset_Generator_CODE_ONLY/PX4_ROS2_HUMBLE_GAZEBO_DSP_DATA_GENERATOR/data/clean_speech/OSR_us_000_0010_8k.wav",
+      "speech_license": "Open Speech Repository terms: research, copying and modification allowed with source attribution",
+      "speech_speaker_id": "OSR_us_000_0010",
+      "speech_split": "starter_evaluation_only",
+      "active_interval_seconds": [
+        2.0,
+        14.0
+      ],
+      "silence_start_seconds": 1.0,
+      "acoustic_orders": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "blade_count": 2,
+      "mic_xyz_m": [
+        0.06,
+        0.0,
+        -0.11
+      ],
+      "rotor_xyz_m": [
+        [
+          0.24,
+          0.24,
+          0
+        ],
+        [
+          -0.24,
+          0.24,
+          0
+        ],
+        [
+          -0.24,
+          -0.24,
+          0
+        ],
+        [
+          0.24,
+          -0.24,
+          0
+        ]
+      ],
+      "shaft_directions": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "reference_rpm": 6500,
+      "order_power": 1.6,
+      "harmonic_rolloff": 1.4,
+      "broadband_fraction": 0.75,
+      "vibration_fraction": 0.25,
+      "electronics_fraction": 0.025,
+      "adc_clip": false,
+      "max_telemetry_gap_s": 0.12,
+      "capture_start_offset_s": 0.4,
+      "imu_max_gap_s": 0.15,
+      "static_calibration": "heuristic_not_measured"
+    },
+    "mission": {
+      "hover_alt_m": 3.0,
+      "warmup_s": 4.0,
+      "segment_s": 17.0,
+      "waypoint_tol_m": 0.8,
+      "landing_timeout_s": 40.0,
+      "max_xy_m": 2.0,
+      "yaw_rad": 0.65
+    }
+  },
+  "sim_capture_sha256": "062d0d9d4c63dd3c4489105cfe8aae33dc06ab218be9807911e381918e986ad1",
+  "rpm_source": "gazebo_joint_derived_validated",
+  "rotor_unit": "RPM from joint rad/s \u00d7 validated slowdown 10.0",
+  "rotor_order": [
+    "rotor_0_joint",
+    "rotor_1_joint",
+    "rotor_2_joint",
+    "rotor_3_joint"
+  ],
+  "motor_mapping_audit": {
+    "original_sha256": "cb76a4afd439f253a8c516b1fcd3528f80347619cfa46bebb620557054fbf125",
+    "generated_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+    "rpm_source": "gazebo_visual_joint_derived_requires_source_validation",
+    "mapping": [
+      {
+        "motor": 0,
+        "joint": "rotor_0_joint",
+        "link": "rotor_0",
+        "direction": "ccw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_0_joint",
+          "linkName": "rotor_0",
+          "turningDirection": "ccw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "0",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 1,
+        "joint": "rotor_1_joint",
+        "link": "rotor_1",
+        "direction": "ccw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_1_joint",
+          "linkName": "rotor_1",
+          "turningDirection": "ccw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "1",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 2,
+        "joint": "rotor_2_joint",
+        "link": "rotor_2",
+        "direction": "cw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_2_joint",
+          "linkName": "rotor_2",
+          "turningDirection": "cw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "2",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      },
+      {
+        "motor": 3,
+        "joint": "rotor_3_joint",
+        "link": "rotor_3",
+        "direction": "cw",
+        "visual_joint_slowdown": 10.0,
+        "max_rot_velocity_rad_s": 1000.0,
+        "original_motor_params": {
+          "jointName": "rotor_3_joint",
+          "linkName": "rotor_3",
+          "turningDirection": "cw",
+          "timeConstantUp": "0.0125",
+          "timeConstantDown": "0.025",
+          "maxRotVelocity": "1000.0",
+          "motorConstant": "8.54858e-06",
+          "momentConstant": "0.016",
+          "commandSubTopic": "command/motor_speed",
+          "motorNumber": "3",
+          "rotorDragCoefficient": "8.06428e-05",
+          "rollingMomentCoefficient": "1e-06",
+          "rotorVelocitySlowdownSim": "10",
+          "motorType": "velocity"
+        }
+      }
+    ],
+    "audited_motor_configuration_original_unchanged": true,
+    "instructions": "Verify locally installed gz-sim8 MulticopterMotorModel uses visual joint speed = modeled speed / rotorVelocitySlowdownSim before enabling RPM conversion."
+  },
+  "shaft_directions": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "audio_t0_sim_ns": 24496000000,
+  "sample_rate_hz": 16000,
+  "frames": 240000,
+  "duration_seconds": 15.0,
+  "seeds": {
+    "acoustics": 202,
+    "speech": 345
+  },
+  "speech_provenance": "real_clean_speech_file",
+  "speech_selection": {
+    "provenance": "real_clean_speech_file",
+    "selected_file": "/home/sanat/Downloads/PX4_Gazebo_ROS2_Humble_DSP_Dataset_Generator_CODE_ONLY/PX4_ROS2_HUMBLE_GAZEBO_DSP_DATA_GENERATOR/data/clean_speech/OSR_us_000_0010_8k.wav",
+    "selected_start_s": 5.5249375,
+    "original_sample_rate_hz": 8000,
+    "repeated_short_source": false
+  },
+  "speech_file": "/home/sanat/Downloads/PX4_Gazebo_ROS2_Humble_DSP_Dataset_Generator_CODE_ONLY/PX4_ROS2_HUMBLE_GAZEBO_DSP_DATA_GENERATOR/data/clean_speech/OSR_us_000_0010_8k.wav",
+  "speech_license": "Open Speech Repository terms: research, copying and modification allowed with source attribution",
+  "speech_speaker_id": "OSR_us_000_0010",
+  "speech_split": "starter_evaluation_only",
+  "speech_sha256": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+  "license": "Open Speech Repository terms: research, copying and modification allowed with source attribution",
+  "snr": {
+    "target_snr_db": -5.0,
+    "realized_snr_db": -5.0,
+    "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+    "speech_active_samples": 137566,
+    "noise_gain": 0.019772184331739696,
+    "mic_clipped_samples": 0,
+    "adc_nonlinear": false
+  },
+  "paired_snr_sweep": {
+    "m10p0dB": {
+      "snr": {
+        "target_snr_db": -10.0,
+        "realized_snr_db": -10.0,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 137566,
+        "noise_gain": 0.0351604682886269,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/m10p0dB"
+    },
+    "p0p0dB": {
+      "snr": {
+        "target_snr_db": 0.0,
+        "realized_snr_db": -4.821637332766436e-16,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 137566,
+        "noise_gain": 0.011118716339018358,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/p0p0dB"
+    },
+    "p5p0dB": {
+      "snr": {
+        "target_snr_db": 5.0,
+        "realized_snr_db": 4.999999999999999,
+        "snr_mask": "selected interval AND absolute speech > 1.5% of peak",
+        "speech_active_samples": 137566,
+        "noise_gain": 0.00625251368049917,
+        "mic_clipped_samples": 0,
+        "adc_nonlinear": false
+      },
+      "source_identical_flight_and_clean_speech": true,
+      "path": "audio_snr_sweep/p5p0dB"
+    }
+  },
+  "fault": {
+    "acoustic_variant": "nominal",
+    "simulated_fault_onset_s": null,
+    "fault_provenance": null
+  },
+  "sensor_corruption": null,
+  "acoustics_calibration": "heuristic_not_field_calibrated",
+  "generated_microphone_pcm": true,
+  "gazebo_logical_audio_sensor_used": false,
+  "speech_valid_for_metrics": true,
+  "rpm_gap_max_observed_s": 0.012000000000000455,
+  "imu": "gazebo_imu_ros_bridge",
+  "imu_noise_stem_is_latent_mechanical_synthetic_not_gazebo_imu": true,
+  "sdf_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+  "gazebo_version": "8.15.0",
+  "px4_version": "d28a64240f7b7570d65776b9b6397eddec0dd9ba",
+  "px4_msgs_branch": "release/1.16",
+  "model_overlay_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+  "flight_evidence": {
+    "scenario": "S3",
+    "flight_success_verified": true,
+    "failure": null,
+    "mission_status": "PASS",
+    "controller": "ROS2_Humble_px4_msgs_release_1.16",
+    "events": 10,
+    "vehicle_samples": 1829,
+    "gz_imu_samples": 10074,
+    "px4_imu_samples": 9392,
+    "command_samples": 0
+  },
+  "experiment_start_offset_s": 0.4,
+  "fault_type": null,
+  "px4_world": "default",
+  "run_data_sha256": {
+    "clean_speech": "0c86ce9a420a4decbb70f009d5ec16fa57608e33cd5399d6d6a35a6b975bef2c",
+    "rotor_tonal": "c3a3dd454e807469162d17bb089062f3bb7c84a02e8f8dd57d754d650f80916f",
+    "rotor_broadband": "6a0075a760aa0ccc39032eef56525ff82071553a25cdcccf374a9a174b991eeb",
+    "mount_vibration": "39f8fb49c3529347ed763066363afdf68f4111b6935a11193fedbc14defb408d",
+    "other_noise": "59822d3a00ea6d52975885c9febdc96443bdad00382c9b9ce0cfda0cfcecc80c",
+    "drone_noise": "9e68f27d7c27c36e0fd540d1c07a73b76e9869f5a436446e11133d14807b6bbf",
+    "mic_noisy": "afa75b8a5381c0df3023ddc7455c35694e3471cc9ef9b5155389a62e257d0a63"
+  },
+  "filter_results_not_generated": true
+}

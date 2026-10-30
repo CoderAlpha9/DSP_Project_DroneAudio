@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_10_00_stop_and_go",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "stop_and_go",
+  "seed": 20362029,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": 9,
+  "sensor_condition": "good",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.9598310111277994,
+  "distance_max_m": 19.153780474993308,
+  "speed_max_m_s": 5.170698639763205,
+  "acceleration_max_m_s2": 6.102792369330684,
+  "active_snr_median_db": -9.774850343247273,
+  "active_fraction_below_3db": 0.8981288981288982,
+  "relative_path": "test/test_10_00_stop_and_go"
+}

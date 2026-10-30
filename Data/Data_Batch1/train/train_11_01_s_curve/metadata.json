@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_11_01_s_curve",
+  "split": "train",
+  "source_group": "52f12a62d905",
+  "profile": "s_curve",
+  "seed": 20262136,
+  "source_offset_samples": 127133,
+  "initial_nominal_active_snr_db": -3,
+  "sensor_condition": "dropout",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 4.46731747989892,
+  "distance_max_m": 22.310487294251114,
+  "speed_max_m_s": 3.6478708471331194,
+  "acceleration_max_m_s2": 2.7500635948665884,
+  "active_snr_median_db": -17.58608615272875,
+  "active_fraction_below_3db": 0.9895561357702349,
+  "relative_path": "train/train_11_01_s_curve"
+}

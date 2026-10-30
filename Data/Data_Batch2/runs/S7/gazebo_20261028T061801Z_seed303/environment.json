@@ -1,0 +1,9 @@
+{
+  "ros2_distro": "humble",
+  "px4_git_commit": "d28a64240f7b7570d65776b9b6397eddec0dd9ba",
+  "gazebo_version": "8.15.0",
+  "px4_msgs_branch": "release/1.16",
+  "world": "windy",
+  "sdf_sha256": "e260fec6f3a273a58e222f3952dfca9b3c0eaece42f49ca1977c3ae1e89ea65e",
+  "ros_domain_id": "73"
+}

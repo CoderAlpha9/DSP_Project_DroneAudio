@@ -1,0 +1,52 @@
+[
+  {
+    "stage": "heartbeat_warmup",
+    "sim_time_ns": 11696000000,
+    "wall_monotonic_s": 8714.014564813
+  },
+  {
+    "stage": "takeoff",
+    "sim_time_ns": 15036000000,
+    "wall_monotonic_s": 8717.354570119
+  },
+  {
+    "stage": "steady",
+    "sim_time_ns": 20136000000,
+    "wall_monotonic_s": 8722.454278465
+  },
+  {
+    "stage": "experiment_begin",
+    "sim_time_ns": 24136000000,
+    "wall_monotonic_s": 8726.45344693
+  },
+  {
+    "stage": "experiment_segment_0",
+    "sim_time_ns": 24136000000,
+    "wall_monotonic_s": 8726.453932098
+  },
+  {
+    "stage": "experiment_segment_1",
+    "sim_time_ns": 29804000000,
+    "wall_monotonic_s": 8732.121684725
+  },
+  {
+    "stage": "experiment_segment_2",
+    "sim_time_ns": 35472000000,
+    "wall_monotonic_s": 8737.78982497
+  },
+  {
+    "stage": "experiment_end",
+    "sim_time_ns": 41140000000,
+    "wall_monotonic_s": 8743.457828262
+  },
+  {
+    "stage": "land_command",
+    "sim_time_ns": 41140000000,
+    "wall_monotonic_s": 8743.458667819
+  },
+  {
+    "stage": "disarmed",
+    "sim_time_ns": 53156000000,
+    "wall_monotonic_s": 8755.473879817
+  }
+]

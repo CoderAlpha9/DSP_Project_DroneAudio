@@ -1,0 +1,12 @@
+{
+  "scenario": "S4",
+  "flight_success_verified": true,
+  "failure": null,
+  "mission_status": "PASS",
+  "controller": "ROS2_Humble_px4_msgs_release_1.16",
+  "events": 10,
+  "vehicle_samples": 1875,
+  "gz_imu_samples": 10384,
+  "px4_imu_samples": 9689,
+  "command_samples": 0
+}

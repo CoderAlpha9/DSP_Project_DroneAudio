@@ -1,0 +1,25 @@
+{
+  "scenario_id": "train_04_01_out_and_back",
+  "split": "train",
+  "source_group": "64de953209db",
+  "profile": "out_and_back",
+  "seed": 20261436,
+  "source_offset_samples": 70918,
+  "initial_nominal_active_snr_db": 3,
+  "sensor_condition": "good",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 5.26815241229051,
+  "distance_max_m": 25.085936212712067,
+  "speed_max_m_s": 8.268692399848076,
+  "acceleration_max_m_s2": 7.363255115408254,
+  "active_snr_median_db": -9.516926401019942,
+  "active_fraction_below_3db": 0.9158249158249159,
+  "relative_path": "train/train_04_01_out_and_back"
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "test_00_00_hover",
+  "split": "test",
+  "source_group": "ecfa678c8671",
+  "profile": "hover",
+  "seed": 20361029,
+  "source_offset_samples": 0,
+  "initial_nominal_active_snr_db": -3,
+  "sensor_condition": "good",
+  "common_safety_scalar": 1.0,
+  "source_position_enu_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_distance_m": 2.0,
+  "pressure_exponent": 1.0,
+  "distance_min_m": 6.513012963917444,
+  "distance_max_m": 6.513012963917444,
+  "speed_max_m_s": 6.51223174224333e-14,
+  "acceleration_max_m_s2": 9.532931148469733e-12,
+  "active_snr_median_db": -16.022841201260473,
+  "active_fraction_below_3db": 0.9625779625779626,
+  "relative_path": "test/test_00_00_hover"
+}
